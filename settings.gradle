@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "BGCTUB_Transport_Tracker_StudentApp"
