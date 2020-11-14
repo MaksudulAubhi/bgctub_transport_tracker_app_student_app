@@ -8,9 +8,9 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="29" />
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
@@ -26,6 +26,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.BGCTUB_Transport_Tracker_StudentApp" >
+        <activity
+            android:name="com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity"
+            android:label="@string/ProfileUpdateActivityTitle"
+            android:parentActivityName="com.example.bgctub_transport_tracker_studentapp.AppMainActivity" />
         <activity
             android:name="com.example.bgctub_transport_tracker_studentapp.DeleteAccountActivity"
             android:label="@string/DeleteAccountActivityTitle"
@@ -74,14 +78,14 @@
             </intent-filter>
         </activity>
 
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+
         <service
             android:name="com.example.bgctub_transport_tracker_studentapp.services.BuildNotificationService"
             android:enabled="true"
             android:exported="true" />
-
-        <meta-data
-            android:name="android.webkit.WebView.EnableSafeBrowsing"
-            android:value="true" />
 
         <provider
             android:name="com.google.firebase.perf.provider.FirebasePerfProvider"

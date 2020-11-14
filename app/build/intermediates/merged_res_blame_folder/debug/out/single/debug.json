@@ -68,16 +68,20 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_signin.xml"
     },
     {
-        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_about.png.flat",
-        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_about.png"
-    },
-    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_reload.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_reload.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_about.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_about.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_profile.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_update.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_profile_update.xml"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_fragment.xml.flat",

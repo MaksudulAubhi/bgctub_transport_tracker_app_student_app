@@ -1,0 +1,56 @@
+<resources>
+    <!--App name -->
+    <string name="app_name">Student App</string>
+    <string name="app_main_name">BGCTUB Transport Tracking App</string>
+
+    <!--Tips Text -->
+    <string name="tip0_text">Keep on your phone\'s internet and GPS.</string>
+    <string name="tip2text">Please, refrain from using mobile phones while crossing the road and while walking. </string>
+    <string name="tip1text">Please, look both ways before cross the road. </string>
+    <string name="tip3text">Please, try to walk on the right-hand side of the road.  </string>
+
+    <!-- Activity label-->
+    <string name="signinActivityTitle">Student App: Sign In</string>
+    <string name="signupActivityTitle">Student App: Sign Up</string>
+    <string name="forgetPassActivityTitle">Forgot Password</string>
+    <string name="tipsActivitytitle">Student App: Tips</string>
+    <string name="activity_settings_title">Settings</string>
+    <string name="newsAndUpdateTitle">News and Update</string>
+    <string name="changePassActivityTitle">Account Settings</string>
+    <string name="DeleteAccountActivityTitle">Account Settings</string>
+
+
+    <string name="snackbar_message">Please turn on your phone\'s location.</string>
+    <string name="off_location_snackbar_message">Please turn on your phone\'s location.</string>
+    <string name="off_location_internet_snackbar_message">Please turn on your phone\'s internet connection and location.</string>
+    <string name="off_internet_message">Please turn on your phone\'s internet connection.</string>
+    <string name="notification_text">Keep on your phone\'s internet and GPS. Click here for vehicle information.</string>
+    <string name="title_activity_app_main">AppMainActivity</string>
+    <string name="forgetPassInfoMsg">Please check your email. We sent an email with password recovery link. </string>
+    <string name="verify_account_info_msg">Registration successful. Please check your email to verify your account and sign in. We sent an email with verification link.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="settings_menu_text">Settings</string>
+    <string name="exit_menu_text">Exit</string>
+    <string name="logout_menu_text">Logout</string>
+    <string name="reload_menu_text">Reload</string>
+    <string name="news_and_update_menu_text">News and Update</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_report">Report and Feedback</string>
+    <string name="menu_about">About</string>
+    <string name="menu_trans_info">Transport Information</string>
+    <string name="ProfileUpdateActivityTitle">My Profile</string>
+
+
+</resources>

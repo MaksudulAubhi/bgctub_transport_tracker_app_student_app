@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bgctub_transport_tracker_studentapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_transport_info"
+        android:name="com.example.bgctub_transport_tracker_studentapp.ui.transport_info.TransportInformationFragment"
+        android:label="@string/menu_trans_info"
+        tools:layout="@layout/transport_information_fragment" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.bgctub_transport_tracker_studentapp.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.bgctub_transport_tracker_studentapp.ui.help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/help_fragment" />
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.example.bgctub_transport_tracker_studentapp.ui.report.ReportFragment"
+        android:label="@string/menu_report"
+        tools:layout="@layout/report_fragment" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.bgctub_transport_tracker_studentapp.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment" />
+
+
+</navigation>

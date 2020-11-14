@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="General">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_action_home"
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_transport_info"
+                    android:icon="@drawable/ic_action_directions_bus"
+                    android:title="@string/menu_trans_info" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_action_profile"
+                    android:title="@string/menu_profile" />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_action_help"
+                    android:title="@string/menu_help" />
+                <item
+                    android:id="@+id/nav_report"
+                    android:icon="@drawable/ic_action_report_problem"
+                    android:title="@string/menu_report" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_action_about"
+                    android:title="@string/menu_about" />
+            </group>
+        </menu>
+    </item>
+</menu>
