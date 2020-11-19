@@ -51,6 +51,9 @@
     <string name="menu_about">About</string>
     <string name="menu_trans_info">Transport Information</string>
     <string name="ProfileUpdateActivityTitle">My Profile</string>
+    <string name="trans_info_details_activity_title">Transport Information</string>
+    <string name="title_activity_maps">Transport Location</string>
+    <string name="title_activity_maps_all_vehicle">Map</string>
 
 
 </resources>

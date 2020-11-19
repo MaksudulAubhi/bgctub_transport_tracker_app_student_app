@@ -1,9 +1,11 @@
 package com.example.bgctub_transport_tracker_studentapp.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,10 +14,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle;
 import com.example.bgctub_transport_tracker_studentapp.R;
 import com.example.bgctub_transport_tracker_studentapp.ui.help.HelpViewModel;
 
 public class HomeFragment extends Fragment {
+    private Button button;
 
     private HomeViewModel mViewModel;
 
@@ -24,6 +28,15 @@ public class HomeFragment extends Fragment {
         mViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
+        button=root.findViewById(R.id.buttonMapTest);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(v==button){
+                    startActivity(new Intent(getActivity(), MapsActivityAllVehicle.class));
+                }
+            }
+        });
         return root;
     }
     @Override

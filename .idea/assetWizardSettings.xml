@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\MAKSUD~1\AppData\Local\Temp\baseline_account_circle_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\MAKSUD~1\AppData\Local\Temp\baseline_location_on_24.xml" />
                                                 <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
@@ -36,7 +36,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../Maksudul%20Hoque%20Aubhi/AppData/Local/Android/Sdk/icons/material/materialicons/account_circle/baseline_account_circle_24.xml" />
+                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../Maksudul%20Hoque%20Aubhi/AppData/Local/Android/Sdk/icons/material/materialicons/location_on/baseline_location_on_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -68,9 +68,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_action_profile" />
+                                      <entry key="outputName" value="ic_action_location" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="060101" />
+                                      <entry key="themeColor" value="000000" />
                                     </map>
                                   </option>
                                 </PersistentState>

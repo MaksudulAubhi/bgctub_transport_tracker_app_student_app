@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_transport_information_fragment.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout-land\\transport_information_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delete_account.xml.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_delete_account.xml"
     },
@@ -68,12 +72,12 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_signin.xml"
     },
     {
-        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_reload.png.flat",
-        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_reload.png"
-    },
-    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_about.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_about.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_reload.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_reload.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_profile.png.flat",
@@ -120,6 +124,10 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_transport_info_details.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_transport_info_details.xml"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_report_problem.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_report_problem.png"
     },
@@ -132,8 +140,20 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_about.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_location.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_location.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_bus.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_bus.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_slideshow.xml.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_location.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_location.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_signin.png.flat",
@@ -168,6 +188,10 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_register.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_location.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_location.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_edit.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_edit.png"
     },
@@ -178,6 +202,10 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_reload.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_reload.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_departure_board.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_departure_board.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_directions_bus.png.flat",
@@ -244,8 +272,16 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_home.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_schedule.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_schedule.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_transport_information_fragment.xml.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\transport_information_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_schedule.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_schedule.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_about.png.flat",
@@ -254,6 +290,14 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps_all_vehicle.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_maps_all_vehicle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_bus.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_bus.xml"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -288,12 +332,28 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_email.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_about.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_about.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_location.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_location.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_departure_board.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_departure_board.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_about.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_about.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_departure_board.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_departure_board.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_profile.png.flat",
@@ -314,6 +374,10 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_profile.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_location.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_location.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_directions_bus.png.flat",
@@ -340,6 +404,14 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_bus.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_bus.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_schedule.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_schedule.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
@@ -356,12 +428,12 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_app_main.xml"
     },
     {
-        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_help.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_report_problem.png.flat",
@@ -384,8 +456,16 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_register.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_departure_board.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_departure_board.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_help.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_location.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_location.xml"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_news_and_update.xml.flat",
@@ -394,6 +474,14 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_home.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_departure_board.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_departure_board.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_schedule.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_schedule.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_no_internet.png.flat",
@@ -414,6 +502,10 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_schedule.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_schedule.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -500,8 +592,24 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_reload.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bus.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bus.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_edit.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bus.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bus.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_bus_list_adapter.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\bus_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bus.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bus.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
@@ -510,6 +618,14 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_directions_bus.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_directions_bus.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_location.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_location.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bus.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bus.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",

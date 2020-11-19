@@ -104,6 +104,7 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
+attr ambientEnabled
 attr animate_relativeTo
 attr animationMode
 attr appBarLayoutStyle
@@ -181,6 +182,13 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -500,6 +508,10 @@ attr labelBehavior
 attr labelStyle
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr launchSingleTop
 attr layout
 attr layoutDescription
@@ -586,8 +598,10 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoDescription
+attr mapType
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -900,9 +914,18 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr uri
 attr useCompatPadding
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr viewInflaterClass
@@ -927,6 +950,7 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
@@ -1629,16 +1653,20 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_about
+drawable ic_action_bus
+drawable ic_action_departure_board
 drawable ic_action_directions_bus
 drawable ic_action_edit
 drawable ic_action_email
 drawable ic_action_help
 drawable ic_action_home
 drawable ic_action_info
+drawable ic_action_location
 drawable ic_action_profile
 drawable ic_action_register
 drawable ic_action_reload
 drawable ic_action_report_problem
+drawable ic_action_schedule
 drawable ic_action_settings
 drawable ic_action_signin
 drawable ic_launcher_background
@@ -1765,6 +1793,8 @@ id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
+id adapterImageView
+id adapterTextView
 id add
 id adjust_height
 id adjust_width
@@ -1787,7 +1817,8 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
+id busListView
+id buttonMapTest
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1850,6 +1881,8 @@ id dragRight
 id dragStart
 id dragUp
 id drawer_layout
+id driver_name_textview
+id driver_status_textview
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -1892,6 +1925,7 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id hybrid
 id icon
 id icon_group
 id icon_only
@@ -1917,6 +1951,8 @@ id linear
 id linearLayout1
 id listMode
 id list_item
+id map
+id map1
 id masked
 id media_actions
 id message
@@ -1973,6 +2009,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id openLocationReqTextView
 id outline
 id packed
 id parallax
@@ -2008,10 +2045,15 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id satellite
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id schedule_day_textview
+id schedule_destinition_textview
+id schedule_start_loc_textview
+id schedule_time_textview
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2030,6 +2072,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id shedule_road_textview
 id shortcut
 id showCustom
 id showHome
@@ -2094,6 +2137,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id terrain
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2144,6 +2188,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id transport_name_textview
+id transport_number_textview
 id triangle
 id unchecked
 id uniform
@@ -2229,12 +2275,16 @@ layout activity_change_password
 layout activity_delete_account
 layout activity_forget_password
 layout activity_main
+layout activity_maps
+layout activity_maps_all_vehicle
 layout activity_news_and_update
 layout activity_profile_update
 layout activity_settings
 layout activity_signin
 layout activity_signup
+layout activity_transport_info_details
 layout app_bar_main
+layout bus_list_adapter
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2403,6 +2453,7 @@ string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_maps_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -2485,6 +2536,9 @@ string tip2text
 string tip3text
 string tipsActivitytitle
 string title_activity_app_main
+string title_activity_maps
+string title_activity_maps_all_vehicle
+string trans_info_details_activity_title
 string verify_account_info_msg
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -3257,6 +3311,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

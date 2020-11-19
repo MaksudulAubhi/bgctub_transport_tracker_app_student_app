@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
+INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
+INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
+INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3a1ed21b34300ef48c5516a005f0f87e\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4d5aeac8681f0ba91312a7c65cc5ffee\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\ca0726111ea65846a3058cf08d79f318\material-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -20,6 +20,8 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Maksudul Hoque Au
 MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d1fcd30d4aa63ed4a22edd8ec8d13b9f\navigation-fragment-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\7f87fa7bd591d6b6084b0b2394f5ec48\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9a24eff9ac72da35b808be51a71834e6\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc152b93dba1f4405408116873408ea3\jetified-play-services-location-17.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2d0dfb783b1578d13def8efc66a814bb\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\ae8a762c4c50309b32e7b0f3e7d4c394\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3612567c65e5fa3d7d0b15b00a18a4c0\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -44,6 +46,7 @@ MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Maksudul Hoque
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a41e21e1bec149b5a1f6689a17f69587\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\43a9311839a947e68096135996b07514\jetified-firebase-installations-interop-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\78fe153f1676a080a1d431f59d23d451\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\af2e307574b8bc7f88ee69eacdb0bbec\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1d1092e6a074e01d44d81ce45305a77c\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2ab6d5be594d38f5113e4e2ea2fd0fc5\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:17:1-27:12
@@ -85,25 +88,25 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\c
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2b838de75d7e833da9261c188bacb7d2\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d1350536ac6598a4e89124624c060b6f\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4d00249784c12e982fdfe71ec5c0d2c9\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
+INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
+INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
 	package
 		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:3:5-62
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-115:12
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:5:5-71:19
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:10:5-109:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\ca0726111ea65846a3058cf08d79f318\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\ca0726111ea65846a3058cf08d79f318\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3219766d2451d615c1e646ef2134fa8c\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -118,6 +121,10 @@ MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoq
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f9bc5a7191df331606a694114f12e276\jetified-firebase-database-19.5.1\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\89cf3f196ecf23813c911b12242d9ce0\jetified-firebase-crashlytics-17.2.2\AndroidManifest.xml:12:5-20:19
 MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\89cf3f196ecf23813c911b12242d9ce0\jetified-firebase-crashlytics-17.2.2\AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc152b93dba1f4405408116873408ea3\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc152b93dba1f4405408116873408ea3\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\7895cbc009e8563138d6e12dbaa51e0e\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\7895cbc009e8563138d6e12dbaa51e0e\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\0f78a53cdaffa3530e3c360be11c2caf\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
@@ -146,6 +153,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a41e21e1bec149b5a1f6689a17f69587\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\78fe153f1676a080a1d431f59d23d451\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\78fe153f1676a080a1d431f59d23d451\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\af2e307574b8bc7f88ee69eacdb0bbec\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\af2e307574b8bc7f88ee69eacdb0bbec\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1d1092e6a074e01d44d81ce45305a77c\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
@@ -167,157 +176,161 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ma
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\efe459cfe0c285ce02ad4b91de42a9df\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:11:9-73
-activity#com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:12:9-14:65
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:13:13-58
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:16:9-73
+activity#com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:26:9-28:80
 	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:14:13-63
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:28:13-68
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:12:19-56
-activity#com.example.bgctub_transport_tracker_studentapp.DeleteAccountActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:15:9-18:62
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:18:13-59
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:17:13-63
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:16:13-50
-activity#com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:19:9-22:62
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:22:13-59
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:21:13-60
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:20:13-51
-activity#com.example.bgctub_transport_tracker_studentapp.NewsAndUpdateActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:23:9-26:61
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:26:13-58
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:25:13-55
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:24:13-50
-activity#com.example.bgctub_transport_tracker_studentapp.SettingsActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:27:9-31:61
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:31:13-58
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:29:13-60
-	android:launchMode
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:30:13-43
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:28:13-45
-activity#com.example.bgctub_transport_tracker_studentapp.AppMainActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:32:9-36:92
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:34:13-60
-	android:launchMode
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:35:13-43
-	android:theme
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:36:13-89
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:33:13-44
-activity#com.example.bgctub_transport_tracker_studentapp.ForgetPasswordActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:37:9-40:60
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:40:13-57
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:39:13-60
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:38:13-51
-activity#com.example.bgctub_transport_tracker_studentapp.SignupActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:41:9-44:60
-	android:parentActivityName
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:44:13-57
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:43:13-56
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:42:13-43
-activity#com.example.bgctub_transport_tracker_studentapp.SigninActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:45:9-48:46
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:47:13-56
-	android:launchMode
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:48:13-43
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:46:13-43
-activity#com.example.bgctub_transport_tracker_studentapp.TipsActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:49:9-51:57
-	android:label
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:51:13-54
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:50:13-41
-activity#com.example.bgctub_transport_tracker_studentapp.MainActivity
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:52:9-61:20
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:27:13-51
+activity#com.example.bgctub_transport_tracker_studentapp.MapsActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:30:9-33:53
 	android:screenOrientation
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:33:13-50
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:31:13-41
+activity#com.example.bgctub_transport_tracker_studentapp.TransportInfoDetailsActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:42:9-45:61
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:45:13-58
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:44:13-70
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:43:13-57
+activity#com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:46:9-49:61
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:49:13-58
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:48:13-63
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:47:13-50
+activity#com.example.bgctub_transport_tracker_studentapp.DeleteAccountActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:50:9-53:62
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:53:13-59
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:52:13-63
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:51:13-50
+activity#com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:54:9-57:62
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:57:13-59
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:56:13-60
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:55:13-51
+activity#com.example.bgctub_transport_tracker_studentapp.NewsAndUpdateActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:58:9-61:61
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:61:13-58
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:60:13-55
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:59:13-50
+activity#com.example.bgctub_transport_tracker_studentapp.SettingsActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:62:9-66:61
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:66:13-58
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:64:13-60
+	android:launchMode
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:65:13-43
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:63:13-45
+activity#com.example.bgctub_transport_tracker_studentapp.AppMainActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:67:9-71:92
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:69:13-60
+	android:launchMode
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:70:13-43
 	android:theme
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:55:13-80
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:71:13-89
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:53:13-41
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:68:13-44
+activity#com.example.bgctub_transport_tracker_studentapp.ForgetPasswordActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:72:9-75:60
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:75:13-57
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:74:13-60
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:73:13-51
+activity#com.example.bgctub_transport_tracker_studentapp.SignupActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:76:9-79:60
+	android:parentActivityName
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:79:13-57
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:78:13-56
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:77:13-43
+activity#com.example.bgctub_transport_tracker_studentapp.SigninActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:80:9-83:46
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:82:13-56
+	android:launchMode
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:81:13-43
+activity#com.example.bgctub_transport_tracker_studentapp.TipsActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:84:9-86:57
+	android:label
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:86:13-54
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:85:13-41
+activity#com.example.bgctub_transport_tracker_studentapp.MainActivity
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:87:9-96:20
+	android:screenOrientation
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:89:13-49
+	android:theme
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:90:13-80
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:88:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:56:13-60:29
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:91:13-95:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:92:17-69
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:92:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:59:17-77
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:94:17-77
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:59:27-74
-meta-data#android.webkit.WebView.EnableSafeBrowsing
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:63:9-65:36
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:94:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:97:9-99:55
 	android:value
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:65:13-33
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:99:13-52
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:64:13-69
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:98:13-58
+meta-data#android.webkit.WebView.EnableSafeBrowsing
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:101:9-103:36
+	android:value
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:103:13-33
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:102:13-69
 service#com.example.bgctub_transport_tracker_studentapp.services.BuildNotificationService
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:67:9-70:39
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:105:9-108:39
 	android:enabled
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:69:13-35
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:107:13-35
 	android:exported
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:70:13-36
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:108:13-36
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:68:13-62
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:72:5-79
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42de123c153586c230830f64f39dac6c\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42de123c153586c230830f64f39dac6c\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f9bc5a7191df331606a694114f12e276\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f9bc5a7191df331606a694114f12e276\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\27b4418ac00a3a8077f6b172a2d9b69b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\27b4418ac00a3a8077f6b172a2d9b69b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f67bd87bb6a62d4f2ff1175529892beb\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f67bd87bb6a62d4f2ff1175529892beb\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-config:19.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2df8111db4cb1851f3ec89327e0e5c77\jetified-firebase-config-19.2.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-config:19.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2df8111db4cb1851f3ec89327e0e5c77\jetified-firebase-config-19.2.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d007c8414e6e788abe8e5839b79d8b21\jetified-firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d007c8414e6e788abe8e5839b79d8b21\jetified-firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2ab6d5be594d38f5113e4e2ea2fd0fc5\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2ab6d5be594d38f5113e4e2ea2fd0fc5\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7c7c0c75935bf3c5a57385be72f2355\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7c7c0c75935bf3c5a57385be72f2355\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4f32e38849ff42376b1eea4bbe59ceb2\jetified-transport-runtime-2.2.4\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4f32e38849ff42376b1eea4bbe59ceb2\jetified-transport-runtime-2.2.4\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:72:22-76
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:106:13-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:73:5-67
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:110:5-67
 MERGED from [com.google.firebase:firebase-perf:19.0.9] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b18e605d907eb68440aef68f7b1c3ad4\jetified-firebase-perf-19.0.9\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-perf:19.0.9] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b18e605d907eb68440aef68f7b1c3ad4\jetified-firebase-perf-19.0.9\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42de123c153586c230830f64f39dac6c\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
@@ -326,6 +339,8 @@ MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoq
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f9bc5a7191df331606a694114f12e276\jetified-firebase-database-19.5.1\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\89cf3f196ecf23813c911b12242d9ce0\jetified-firebase-crashlytics-17.2.2\AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\89cf3f196ecf23813c911b12242d9ce0\jetified-firebase-crashlytics-17.2.2\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\27b4418ac00a3a8077f6b172a2d9b69b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\27b4418ac00a3a8077f6b172a2d9b69b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f67bd87bb6a62d4f2ff1175529892beb\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:22:5-67
@@ -341,11 +356,37 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7c7c0c75935bf3c5a57385be72f2355\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7c7c0c75935bf3c5a57385be72f2355\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:73:22-64
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:110:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:111:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42de123c153586c230830f64f39dac6c\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42de123c153586c230830f64f39dac6c\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f9bc5a7191df331606a694114f12e276\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f9bc5a7191df331606a694114f12e276\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\27b4418ac00a3a8077f6b172a2d9b69b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\27b4418ac00a3a8077f6b172a2d9b69b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f67bd87bb6a62d4f2ff1175529892beb\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\f67bd87bb6a62d4f2ff1175529892beb\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-config:19.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2df8111db4cb1851f3ec89327e0e5c77\jetified-firebase-config-19.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:19.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2df8111db4cb1851f3ec89327e0e5c77\jetified-firebase-config-19.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d007c8414e6e788abe8e5839b79d8b21\jetified-firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d007c8414e6e788abe8e5839b79d8b21\jetified-firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2ab6d5be594d38f5113e4e2ea2fd0fc5\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2ab6d5be594d38f5113e4e2ea2fd0fc5\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7c7c0c75935bf3c5a57385be72f2355\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7c7c0c75935bf3c5a57385be72f2355\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4f32e38849ff42376b1eea4bbe59ceb2\jetified-transport-runtime-2.2.4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4f32e38849ff42376b1eea4bbe59ceb2\jetified-transport-runtime-2.2.4\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:111:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:75:5-79
+ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:113:5-79
 	android:name
-		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:75:22-76
+		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:113:22-76
 uses-sdk
 INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
@@ -382,6 +423,10 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Maksudul Hoq
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\7f87fa7bd591d6b6084b0b2394f5ec48\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9a24eff9ac72da35b808be51a71834e6\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9a24eff9ac72da35b808be51a71834e6\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc152b93dba1f4405408116873408ea3\jetified-play-services-location-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc152b93dba1f4405408116873408ea3\jetified-play-services-location-17.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2d0dfb783b1578d13def8efc66a814bb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2d0dfb783b1578d13def8efc66a814bb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\ae8a762c4c50309b32e7b0f3e7d4c394\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -430,6 +475,8 @@ MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\43a9311839a947e68096135996b07514\jetified-firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\78fe153f1676a080a1d431f59d23d451\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\78fe153f1676a080a1d431f59d23d451\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\af2e307574b8bc7f88ee69eacdb0bbec\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\af2e307574b8bc7f88ee69eacdb0bbec\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\073ece8e20643665386532735b3aae71\jetified-play-services-measurement-impl-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1d1092e6a074e01d44d81ce45305a77c\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
@@ -664,6 +711,18 @@ ADDED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul H
 		ADDED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\89cf3f196ecf23813c911b12242d9ce0\jetified-firebase-crashlytics-17.2.2\AndroidManifest.xml:18:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-crashlytics:17.2.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\89cf3f196ecf23813c911b12242d9ce0\jetified-firebase-crashlytics-17.2.2\AndroidManifest.xml:17:17-115
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\547d82503a2ea249db01728aaaafb06b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\0fa984ecc3600675e0c008e83955307a\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
 	android:exported

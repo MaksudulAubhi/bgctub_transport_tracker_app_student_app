@@ -85,7 +85,7 @@
                     android:layout_marginHorizontal="50dp"
                     android:text="Name"
                     android:textColor="#0c0c0c"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="15dp"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -231,17 +231,7 @@
                     android:textColor="#0c0c0c"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/genderErrorTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="50dp"
-                    android:text="Please select gender"
-                    android:layout_marginTop="20dp"
-                    android:textColor="#E31A1A"
-                    android:textSize="14sp"
-                    android:visibility="invisible"
-                    android:textStyle="bold" />
+
 
                 <RadioGroup
                     android:id="@+id/genderRadioGroup"
@@ -275,6 +265,17 @@
 
 
                 </RadioGroup>
+                <TextView
+                    android:id="@+id/genderErrorTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="50dp"
+                    android:text="Please select gender"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#E31A1A"
+                    android:textSize="14sp"
+                    android:visibility="invisible"
+                    android:textStyle="bold" />
 
 
 
@@ -317,7 +318,7 @@
                     android:layout_marginHorizontal="50dp"
                     android:text="Bus Stoppage"
                     android:textColor="#0c0c0c"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="15dp"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
