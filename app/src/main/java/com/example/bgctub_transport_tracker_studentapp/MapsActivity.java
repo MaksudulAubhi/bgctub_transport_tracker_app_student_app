@@ -8,6 +8,7 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Looper;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -30,6 +31,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -40,7 +42,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 
 //maps activity for single vehicle location
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
 
     FirebaseAuth mAuth;
     private GoogleMap mMap;
@@ -51,7 +53,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private FusedLocationProviderClient fusedLocationProviderClient;
     private FusedLocationProviderClient client;
     private LocationRequest locationRequest;
-
+    FloatingActionButton mapReloadFab,backBtnFab,reloadFab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +82,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //database references**
         String database_path = "driver_app" + "/" + "transport_info_location" + "/" + userId;
         busLocationDatabaseRef = FirebaseDatabase.getInstance().getReference(database_path);
+
+
+
+        //for floating action button
+        mapReloadFab=findViewById(R.id.fabBusMapReload);
+        backBtnFab=findViewById(R.id.fabBusBackBtn);
+        reloadFab=findViewById(R.id.fabBusActivityReload);
+        mapReloadFab.setOnClickListener(this);
+        backBtnFab.setOnClickListener(this);
+        reloadFab.setOnClickListener(this);
 
     }
 
@@ -233,5 +245,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(builder.build(), 300));
 
 
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v==mapReloadFab){
+            //reload map to click
+            onMapReady(mMap);
+        }
+        if(v==backBtnFab){
+            //back to parent activity
+            onBackPressed();
+        }
+        if(v==reloadFab){
+            //recreate activity to click
+            recreate();
+        }
     }
 }

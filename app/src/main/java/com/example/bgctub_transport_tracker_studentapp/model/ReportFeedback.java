@@ -7,15 +7,20 @@ public class ReportFeedback {
     private String userEmail;
     private String appNameVersion;
     private String time;
+    private String phone_configuration;
 
-    public ReportFeedback(String userId, String report_feedback_title, String report_feedback_info, String userEmail, String appNameVersion, String time) {
+    public ReportFeedback(String userId, String report_feedback_title,
+                          String report_feedback_info, String userEmail,
+                          String appNameVersion, String time,String phone_configuration) {
         this.userId = userId;
         this.report_feedback_title = report_feedback_title;
         this.report_feedback_info = report_feedback_info;
         this.userEmail = userEmail;
         this.appNameVersion = appNameVersion;
         this.time = time;
+        this.phone_configuration=phone_configuration;
     }
+
 
     public String getUserId() {
         return userId;
@@ -63,5 +68,13 @@ public class ReportFeedback {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getPhone_configuration() {
+        return phone_configuration;
+    }
+
+    public void setPhone_configuration(String phone_configuration) {
+        this.phone_configuration = phone_configuration;
     }
 }

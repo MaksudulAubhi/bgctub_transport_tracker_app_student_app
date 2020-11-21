@@ -1653,6 +1653,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_about
+drawable ic_action_back_button
 drawable ic_action_bus
 drawable ic_action_departure_board
 drawable ic_action_directions_bus
@@ -1662,9 +1663,11 @@ drawable ic_action_help
 drawable ic_action_home
 drawable ic_action_info
 drawable ic_action_location
+drawable ic_action_location_white
 drawable ic_action_profile
 drawable ic_action_register
 drawable ic_action_reload
+drawable ic_action_reload_black
 drawable ic_action_report_problem
 drawable ic_action_schedule
 drawable ic_action_settings
@@ -1792,6 +1795,7 @@ id action_reload
 id action_settings
 id action_text
 id actions
+id activeBusCount
 id activity_chooser_view_content
 id adapterImageView
 id adapterTextView
@@ -1818,7 +1822,6 @@ id blocking
 id bottom
 id bounce
 id busListView
-id buttonMapTest
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1895,6 +1898,13 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fabAllBusActivityReload
+id fabAllBusBackBtn
+id fabAllBusMapReload
+id fabBusActivityReload
+id fabBusBackBtn
+id fabBusMapReload
+id fabHomeLocationBtn
 id fade
 id fill
 id fill_horizontal
@@ -1904,6 +1914,8 @@ id fitToContents
 id fixed
 id flip
 id floating
+id floatingActionButton2
+id floatingActionButton3
 id forever
 id forgetPassLayout
 id forgetPasswordRequestTextView
@@ -2180,6 +2192,7 @@ id toggle
 id toolbar
 id top
 id topPanel
+id totalBusCount
 id touch_outside
 id transitionToEnd
 id transitionToStart

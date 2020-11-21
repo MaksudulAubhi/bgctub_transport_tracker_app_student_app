@@ -7,8 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener{
     private TextView deleteReqTextView,changePassReqTextView;
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +23,26 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
 
         deleteReqTextView.setOnClickListener(this);
         changePassReqTextView.setOnClickListener(this);
+        //check user**
+        mAuth=FirebaseAuth.getInstance();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user == null) {
+            startActivity(new Intent(SettingsActivity.this,SigninActivity.class));
+            finish();
+        }
     }
+
+    //used for check user again when user back previous session or resume of activity
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user == null) {
+            finish();
+        }
+    }
+
 
     @Override
     public void onClick(View v) {

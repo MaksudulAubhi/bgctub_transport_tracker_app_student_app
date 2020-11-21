@@ -1,5 +1,6 @@
 package com.example.bgctub_transport_tracker_studentapp.services;
 
+import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
@@ -39,15 +40,15 @@ public class BuildNotificationService extends Service {
 
         Intent intent = new Intent(this, SigninActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 1, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
 
-        NotificationCompat.Builder appNotificationBuilder = new NotificationCompat.Builder(this)
+        Notification.Builder appNotificationBuilder = new Notification.Builder(this)
                 .setContentTitle(getString(R.string.app_name))
                 .setContentText(getString(R.string.notification_text))
                 .setOngoing(true)
                 .setContentIntent(pendingIntent)
-                .setStyle(new NotificationCompat.BigTextStyle()
+                .setStyle(new Notification.BigTextStyle()
                         .bigText(getString(R.string.notification_text)))
                 .setSmallIcon(R.drawable.logo1);
         startForeground(1, appNotificationBuilder.build());

@@ -52,7 +52,7 @@ public class DeleteAccountActivity extends AppCompatActivity implements View.OnC
         String userId = mUser.getUid();
 
         //user information database path
-        final String DATABASE_PATH = "student_app" + "/" + userId;
+        final String DATABASE_PATH = "student_app" + "/"+"student_profile"+"/"+ userId;
         userIdDatabaseRef = FirebaseDatabase.getInstance().getReference(DATABASE_PATH);
 
         //check user logon or not, if not go sign up activity
@@ -63,6 +63,17 @@ public class DeleteAccountActivity extends AppCompatActivity implements View.OnC
 
         mProgressDialog = new ProgressDialog(this);
         deleteAccountButton.setOnClickListener(this);
+    }
+
+    //used for check user again when user back previous session or resume of activity
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user == null) {
+            finish();
+        }
     }
 
     //delete a user and user information**
