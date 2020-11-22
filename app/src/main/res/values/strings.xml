@@ -54,6 +54,8 @@
     <string name="trans_info_details_activity_title">Transport Information</string>
     <string name="title_activity_maps">Transport Location</string>
     <string name="title_activity_maps_all_vehicle">Map</string>
+    <string name="resend_ver_email_message_req">Dear user, your email is not verified. We sent an email with verification link when you registered. If this link not working or you face other problems please choose confirm button to send email again.</string>
+    <string name="resend_ver_email_message_success">Sent email successfully . Please check your email to verify your account and sign in. We sent again an email with verification link.</string>
 
 
 </resources>

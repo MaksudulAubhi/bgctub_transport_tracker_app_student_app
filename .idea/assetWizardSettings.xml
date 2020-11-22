@@ -24,8 +24,9 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\MAKSUD~1\AppData\Local\Temp\baseline_arrow_back_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\MAKSUD~1\AppData\Local\Temp\baseline_directions_bus_24.xml" />
                                                 <entry key="opacityPercent" value="80" />
+                                                <entry key="paddingPercent" value="-5" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -36,7 +37,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../Maksudul%20Hoque%20Aubhi/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back/baseline_arrow_back_24.xml" />
+                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../Maksudul%20Hoque%20Aubhi/AppData/Local/Android/Sdk/icons/material/materialicons/directions_bus/baseline_directions_bus_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -68,9 +69,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_action_back_button" />
+                                      <entry key="outputName" value="ic_action_bus_map" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="000000" />
+                                      <entry key="themeColor" value="02d95b" />
                                     </map>
                                   </option>
                                 </PersistentState>

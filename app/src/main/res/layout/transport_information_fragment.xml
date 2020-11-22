@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:padding="3dp"
-                    android:text="Buses List"
+                    android:text="Bus List"
                     android:textColor="#0C0C0C"
                     android:textSize="20sp"
                     android:textStyle="bold" />

@@ -2,6 +2,7 @@ package com.example.bgctub_transport_tracker_studentapp;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -12,7 +13,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
@@ -42,7 +43,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 
 //maps activity for single vehicle location
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener, GoogleMap.OnInfoWindowClickListener {
 
     FirebaseAuth mAuth;
     private GoogleMap mMap;
@@ -53,7 +54,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private FusedLocationProviderClient fusedLocationProviderClient;
     private FusedLocationProviderClient client;
     private LocationRequest locationRequest;
-    FloatingActionButton mapReloadFab,backBtnFab,reloadFab;
+    FloatingActionButton mapReloadFab, backBtnFab, reloadFab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,11 +85,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         busLocationDatabaseRef = FirebaseDatabase.getInstance().getReference(database_path);
 
 
-
         //for floating action button
-        mapReloadFab=findViewById(R.id.fabBusMapReload);
-        backBtnFab=findViewById(R.id.fabBusBackBtn);
-        reloadFab=findViewById(R.id.fabBusActivityReload);
+        mapReloadFab = findViewById(R.id.fabBusMapReload);
+        backBtnFab = findViewById(R.id.fabBusBackBtn);
+        reloadFab = findViewById(R.id.fabBusActivityReload);
         mapReloadFab.setOnClickListener(this);
         backBtnFab.setOnClickListener(this);
         reloadFab.setOnClickListener(this);
@@ -114,13 +114,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //  mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         //  mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
         mMap.setMaxZoomPreference(16);
+        mMap.setOnInfoWindowClickListener(this);
 
         //update student locations if phone GPS is on**
         LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
         if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
             requestLocationUpdates();
-        }
-        else{
+        } else {
             Toast.makeText(this, "Please turn on your phone location service to get your current location.", Toast.LENGTH_LONG).show();
         }
         //fetch bus locations
@@ -160,7 +160,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LatLng studentLocation = new LatLng(location.getLatitude(), location.getLongitude());
                 mMarkers.put("my location", mMap.addMarker(new MarkerOptions()
                         .position(studentLocation)
-                        .title("My Location")));
+                        .title("My Location")
+                        .snippet("")));
             }
         }
     };
@@ -201,19 +202,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String key = userId;
 
         //icon for buses**
-        BitmapDescriptor icon= BitmapDescriptorFactory.fromResource(R.drawable.ic_action_bus);
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.ic_action_bus);
 
         //for vehicle information**
 
         String vehicle_name = dataSnapshot.child("transport_information").child("vehicle_name").getValue().toString();
         String vehicle_number = dataSnapshot.child("transport_information").child("vehicle_number").getValue().toString();
         String road = dataSnapshot.child("transport_information").child("travel_road").getValue().toString();
-        String startLoc=dataSnapshot.child("transport_information").child("start_location").getValue().toString();
-        String destination=dataSnapshot.child("transport_information").child("destinition").getValue().toString();
-        String time=dataSnapshot.child("transport_information").child("start_time_schedule").getValue().toString();
-        String date=dataSnapshot.child("transport_information").child("start_date_schedule").getValue().toString();
-        String vehicle_info1 = "[Name: " + vehicle_name + "] [Number: " + vehicle_number + "] [Start Time: " + time + "]";
-        String vehicle_info2=  "[Date: " + date + "] [Road: " + road + "] [From: " + startLoc + "]"+" [Destination: " + destination + "]";
+        String startLoc = dataSnapshot.child("transport_information").child("start_location").getValue().toString();
+        String destination = dataSnapshot.child("transport_information").child("destinition").getValue().toString();
+        String time = dataSnapshot.child("transport_information").child("start_time_schedule").getValue().toString();
+        String date = dataSnapshot.child("transport_information").child("start_date_schedule").getValue().toString();
+        String vehicle_info1 = "Company Name: \n" + vehicle_name + "  \n\nVehicle Number: \n" + vehicle_number + "  \n\nRoad: \n" + road;
+        String vehicle_info2 = "Starting Place: \n" + startLoc + "  \n\nStart Time: \n" + time + "  \n\nStart Date: \n" + date + "  \n\nDestination:  \n" + destination;
+
 
         //upload location data to hashMap and get from hashMap**
 
@@ -249,17 +251,42 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onClick(View v) {
-        if(v==mapReloadFab){
+        if (v == mapReloadFab) {
             //reload map to click
             onMapReady(mMap);
         }
-        if(v==backBtnFab){
+        if (v == backBtnFab) {
             //back to parent activity
             onBackPressed();
         }
-        if(v==reloadFab){
+        if (v == reloadFab) {
             //recreate activity to click
             recreate();
         }
+    }
+
+    //alert dialog create with vehicle info after click marker info window verification**
+    AlertDialog.Builder alertDialogBuilder(Context context, String information) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Vehicle Information");
+        builder.setMessage(information);
+        builder.setIcon(R.drawable.ic_action_bus_map);
+        builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+        return builder;
+    }
+
+
+    @Override
+    public void onInfoWindowClick(Marker marker) {
+        //after window click open alert window**
+        String information = marker.getTitle() + "\n\n" + marker.getSnippet();
+        alertDialogBuilder(this, information);
     }
 }

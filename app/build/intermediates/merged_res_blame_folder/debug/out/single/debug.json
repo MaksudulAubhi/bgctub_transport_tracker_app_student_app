@@ -60,8 +60,20 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bus_map.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bus_map.png"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_transport_information_fragment.xml.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout-land\\transport_information_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bus_map.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bus_map.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bus_map.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bus_map.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delete_account.xml.flat",
@@ -136,6 +148,10 @@
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_bus_map.xml.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_bus_map.xml"
+    },
+    {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_transport_info_details.xml.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\layout\\activity_transport_info_details.xml"
     },
@@ -186,6 +202,10 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_reload.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_reload.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_bus_map.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_bus_map.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
@@ -258,6 +278,10 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_back_button.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_back_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_bus_map.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_bus_map.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_back_button.xml.flat",
@@ -382,6 +406,10 @@
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_location.png.flat",
         "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_location.png"
+    },
+    {
+        "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bus_map.png.flat",
+        "source": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bus_map.png"
     },
     {
         "merged": "C:\\Users\\Maksudul Hoque Aubhi\\AndroidStudioProjects\\BGCTUB_Transport_Tracker_StudentApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_departure_board.png.flat",

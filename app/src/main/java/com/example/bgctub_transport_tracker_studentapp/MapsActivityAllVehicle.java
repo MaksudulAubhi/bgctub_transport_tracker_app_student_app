@@ -2,6 +2,7 @@ package com.example.bgctub_transport_tracker_studentapp;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
@@ -40,7 +42,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
-public class MapsActivityAllVehicle extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
+public class MapsActivityAllVehicle extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener, GoogleMap.OnInfoWindowClickListener {
 
     private GoogleMap mMap;
     private FloatingActionButton mapReloadFab, backBtnFab, reloadFab;
@@ -87,6 +89,8 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         mapReloadFab.setOnClickListener(this);
         backBtnFab.setOnClickListener(this);
         reloadFab.setOnClickListener(this);
+
+
     }
 
     /**
@@ -102,6 +106,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         mMap.setMaxZoomPreference(16);
+        mMap.setOnInfoWindowClickListener(this);
 
         //update student locations if phone GPS is on**
         LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
@@ -123,9 +128,10 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
             Location location = locationResult.getLastLocation();
             if (location != null) {
                 LatLng studentLocation = new LatLng(location.getLatitude(), location.getLongitude());
-                mMarkers.put("my location", mMap.addMarker(new MarkerOptions()
+                mMarkers.put("my_location", mMap.addMarker(new MarkerOptions()
                         .position(studentLocation)
-                        .title("My Location")));
+                        .title("My Location")
+                        .snippet("")));
             }
         }
     };
@@ -163,7 +169,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
                             }
                         }
                     }
-                }catch (Exception exception){
+                } catch (Exception exception) {
                     Toast.makeText(MapsActivityAllVehicle.this, "Sorry no driver is active now.", Toast.LENGTH_LONG).show();
                 }
 
@@ -190,9 +196,9 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         //if child available show transport information data else show empty
 
 
-        String vehicle_info1 = "Information not given by driver.", vehicle_info2 = "Information not given by driver.";
+        String vehicle_info1 = "Sorry information not available.", vehicle_info2 = "Information not given by driver.";
 
-        if(dataSnapshot.child(userId).hasChild("transport_information")) {
+        if (dataSnapshot.child(userId).hasChild("transport_information")) {
 
             String vehicle_name = dataSnapshot.child(userId).child("transport_information").child("vehicle_name").getValue().toString();
             String vehicle_number = dataSnapshot.child(userId).child("transport_information").child("vehicle_number").getValue().toString();
@@ -201,8 +207,8 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
             String destination = dataSnapshot.child(userId).child("transport_information").child("destinition").getValue().toString();
             String time = dataSnapshot.child(userId).child("transport_information").child("start_time_schedule").getValue().toString();
             String date = dataSnapshot.child(userId).child("transport_information").child("start_date_schedule").getValue().toString();
-            vehicle_info1 = "[Name: " + vehicle_name + "] [Number: " + vehicle_number + "] [Start Time: " + time + "]";
-            vehicle_info2 = "[Date: " + date + "] [Road: " + road + "] [From: " + startLoc + "]" + " [Destination: " + destination + "]";
+            vehicle_info1 = "Company Name: \n" + vehicle_name + "  \n\nVehicle Number: \n" + vehicle_number + "  \n\nRoad: \n" + road;
+            vehicle_info2 = "Starting Place: \n" + startLoc + "  \n\nStart Time: \n" + time + "  \n\nStart Date: \n" + date + "  \n\nDestination:  \n" + destination;
 
         }
         //upload location data to hashMap and get from hashMap**
@@ -251,5 +257,31 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
             //recreate activity to click
             recreate();
         }
+    }
+
+    //alert dialog create with vehicle info after click marker info window verification**
+    AlertDialog.Builder alertDialogBuilder(Context context, String information) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Vehicle Information");
+        builder.setMessage(information);
+        builder.setIcon(R.drawable.ic_action_bus_map);
+        builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+        return builder;
+    }
+
+    @Override
+    public void onInfoWindowClick(Marker marker) {
+        //after window click open alert window**
+        String information = marker.getTitle() + "\n\n" + marker.getSnippet();
+
+        alertDialogBuilder(this, information);
+
     }
 }

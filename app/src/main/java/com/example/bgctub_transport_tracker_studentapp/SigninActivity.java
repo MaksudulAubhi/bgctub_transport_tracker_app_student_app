@@ -1,9 +1,12 @@
 package com.example.bgctub_transport_tracker_studentapp;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -87,6 +90,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
                         finish();
                         Toast.makeText(SigninActivity.this,"Welcome "+mAuth.getCurrentUser().getEmail(),Toast.LENGTH_SHORT).show();
                     }else{
+                        alertDialogBuilder(SigninActivity.this);
                         Toast.makeText(SigninActivity.this,"Please verify your email address.",Toast.LENGTH_LONG).show();
                     }
                 }else{
@@ -98,6 +102,70 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
 
 
     }
+
+    //resend verification email;
+    //used send verification email method
+    public void resendVerificationEmail(){
+        progressDialog.setMessage("Please wait...");
+        progressDialog.show();
+        mAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                if (task.isSuccessful()){
+                    alertDialogBuilderSentSuccessMessage(SigninActivity.this);
+                    Toast.makeText(SigninActivity.this,"Sent email successfully.",Toast.LENGTH_LONG).show();
+                }else{
+                    Toast.makeText(SigninActivity.this,task.getException().getLocalizedMessage(),Toast.LENGTH_LONG).show();
+                }
+
+                progressDialog.dismiss();
+            }
+        });
+    }
+
+
+    //alert dialog create request for to sent verification email**
+    AlertDialog.Builder alertDialogBuilder(Context context) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Verification Account Message");
+        builder.setMessage(R.string.resend_ver_email_message_req);
+        builder.setIcon(R.drawable.ic_action_info);
+        builder.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                resendVerificationEmail();
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+        return builder;
+    }
+
+    //alert dialog for give success message for sent email verification
+
+    AlertDialog.Builder alertDialogBuilderSentSuccessMessage(Context context) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Verification Account Message");
+        builder.setMessage(R.string.resend_ver_email_message_success);
+        builder.setIcon(R.drawable.ic_action_info);
+        builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+        return builder;
+    }
+
+
 
     @Override
     public void onClick(View v) {

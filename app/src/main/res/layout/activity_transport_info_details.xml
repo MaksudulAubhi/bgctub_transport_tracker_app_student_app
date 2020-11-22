@@ -294,7 +294,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="50dp"
                     android:layout_marginTop="10dp"
-                    android:text="Start Day"
+                    android:text="Start Date"
                     android:textColor="#0c0c0c"
                     android:textSize="18sp"
                     android:textStyle="bold" />

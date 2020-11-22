@@ -1655,6 +1655,7 @@ drawable googleg_standard_color_18
 drawable ic_action_about
 drawable ic_action_back_button
 drawable ic_action_bus
+drawable ic_action_bus_map
 drawable ic_action_departure_board
 drawable ic_action_directions_bus
 drawable ic_action_edit
@@ -2537,6 +2538,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string reload_menu_text
+string resend_ver_email_message_req
+string resend_ver_email_message_success
 string search_menu_title
 string settings_menu_text
 string signinActivityTitle
