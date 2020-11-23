@@ -85,14 +85,14 @@ public class TransportInformationFragment extends Fragment implements AdapterVie
                         userId = userIdSnapShot.getKey();
 
                         try {
-                            String Vehicle_name = snapshot.child(userId).child("transport_information").child("vehicle_name").getValue().toString();
+                            String vehicle_name = snapshot.child(userId).child("transport_information").child("vehicle_name").getValue().toString();
                             String vehicle_number = snapshot.child(userId).child("transport_information").child("vehicle_number").getValue().toString();
                             String start_time = snapshot.child(userId).child("transport_information").child("start_time_schedule").getValue().toString();
                             String start_date = snapshot.child(userId).child("transport_information").child("start_date_schedule").getValue().toString();
                             String start_loc = snapshot.child(userId).child("transport_information").child("start_location").getValue().toString();
 
                             //add data to list**
-                            busList.add("Company Name: " + vehicle_number
+                            busList.add("Company Name: " + vehicle_name
                                     + "\n" + "Vehicle Number: " + vehicle_number
                                     + "\n" + "Start Time: " + start_time
                                     + "\n" + "Start Date: " + start_date

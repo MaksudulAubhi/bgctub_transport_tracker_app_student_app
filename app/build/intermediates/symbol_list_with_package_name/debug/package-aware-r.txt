@@ -1625,6 +1625,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable bus_list
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1650,8 +1651,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable forgetpass
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable home
 drawable ic_action_about
 drawable ic_action_back_button
 drawable ic_action_bus
@@ -1687,6 +1690,8 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_no_internet
 drawable logo1
+drawable map_info_click
+drawable map_window_info
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1716,7 +1721,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable report
 drawable side_nav_bar
+drawable signin
+drawable signup
+drawable singel_info_bus
+drawable single_info_map
 drawable test_custom_background
 drawable tips0
 drawable tips1
@@ -1933,7 +1943,6 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
-id helpRequestTextView
 id hideable
 id home
 id homeAsUp
@@ -2091,9 +2100,11 @@ id showCustom
 id showHome
 id showTitle
 id signUpLayout
+id signinLayout
 id signin_button
 id signin_email_editText
 id signin_password_editText
+id signinhelpRequestTextView
 id signupRequestTextView
 id signup_button
 id signup_confirm_password_editText
@@ -2195,6 +2206,7 @@ id top
 id topPanel
 id totalBusCount
 id touch_outside
+id transInfo_View_edit_imgBtn
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
@@ -2288,6 +2300,7 @@ layout activity_app_main
 layout activity_change_password
 layout activity_delete_account
 layout activity_forget_password
+layout activity_help
 layout activity_main
 layout activity_maps
 layout activity_maps_all_vehicle
@@ -2396,6 +2409,7 @@ mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
 string DeleteAccountActivityTitle
+string HomeHelpText2
 string ProfileUpdateActivityTitle
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2463,13 +2477,17 @@ string fab_transformation_sheet_behavior
 string firebase_database_url
 string forgetPassActivityTitle
 string forgetPassInfoMsg
+string forgot_pass_help
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_maps_key
 string google_storage_bucket
+string help_activity_title
+string help_text_signup
 string hide_bottom_view_on_scroll_behavior
+string homeHelptext1
 string icon_content_description
 string item_view_role_description
 string logout_menu_text
@@ -2538,10 +2556,12 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string reload_menu_text
+string report_feedback_helptext
 string resend_ver_email_message_req
 string resend_ver_email_message_success
 string search_menu_title
 string settings_menu_text
+string sign_in_help_text
 string signinActivityTitle
 string signupActivityTitle
 string snackbar_message
@@ -2555,6 +2575,7 @@ string title_activity_app_main
 string title_activity_maps
 string title_activity_maps_all_vehicle
 string trans_info_details_activity_title
+string transport_info_help_text
 string verify_account_info_msg
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

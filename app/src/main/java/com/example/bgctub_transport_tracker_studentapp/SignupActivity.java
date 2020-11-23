@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -17,6 +18,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.bgctub_transport_tracker_studentapp.ui.help.HelpFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
@@ -27,7 +29,6 @@ import com.google.firebase.auth.FirebaseUser;
 public class SignupActivity extends AppCompatActivity implements View.OnClickListener{
     private EditText signUpEmailEditText,signUpPasswordEditText,signUpConfirmPasswordEditText;
     private Button signUpButton;
-    private TextView helpReqTextView;
     private FirebaseAuth mAuth;
     ProgressDialog progressDialog;
 
@@ -45,11 +46,9 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         signUpPasswordEditText=findViewById(R.id.signup_password_editText);
         signUpConfirmPasswordEditText=findViewById(R.id.signup_confirm_password_editText);
         signUpButton=findViewById(R.id.signup_button);
-        helpReqTextView=findViewById(R.id.helpRequestTextView);
 
 
         signUpButton.setOnClickListener(this);
-        helpReqTextView.setOnClickListener(this);
 
         mAuth=FirebaseAuth.getInstance();
         FirebaseUser mUser=mAuth.getCurrentUser();
@@ -147,5 +146,6 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
             //user sign up method
             userSignUp();
         }
+
     }
 }

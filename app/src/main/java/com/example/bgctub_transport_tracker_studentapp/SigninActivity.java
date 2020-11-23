@@ -3,6 +3,7 @@ package com.example.bgctub_transport_tracker_studentapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -16,6 +17,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.bgctub_transport_tracker_studentapp.ui.help.HelpFragment;
+import com.example.bgctub_transport_tracker_studentapp.ui.tipsActivity.tips1.Tips1Fragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -25,7 +28,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class SigninActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText signInEmailEditText,signInPasswordEditText;
     private Button signInButton;
-    private TextView forgotPassTextView, signUpReqTextView;
+    private TextView forgotPassTextView, signUpReqTextView,helpReqTextView;
     private FirebaseAuth mAuth;
     ProgressDialog progressDialog;
 
@@ -38,10 +41,12 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
         signInButton=findViewById(R.id.signin_button);
         forgotPassTextView=findViewById(R.id.forgetPasswordRequestTextView);
         signUpReqTextView=findViewById(R.id.signupRequestTextView);
+        helpReqTextView=findViewById(R.id.signinhelpRequestTextView);
 
         signInButton.setOnClickListener(this);
         forgotPassTextView.setOnClickListener(this);
         signUpReqTextView.setOnClickListener(this);
+        helpReqTextView.setOnClickListener(this);
 
         mAuth=FirebaseAuth.getInstance();
         FirebaseUser mUser=mAuth.getCurrentUser();
@@ -180,6 +185,9 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
         if(v==signUpReqTextView){
             //sign up activity open
             startActivity(new Intent(this,SignupActivity.class));
+        }
+        if(v==helpReqTextView){
+            startActivity(new Intent(this,HelpActivity.class));
         }
     }
 }

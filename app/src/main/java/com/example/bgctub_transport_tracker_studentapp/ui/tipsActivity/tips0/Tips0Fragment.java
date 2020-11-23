@@ -63,7 +63,7 @@ public class Tips0Fragment extends Fragment implements View.OnClickListener{
             if (v == nextButton) {
                 // goto tips1 fragment
                 Tips1Fragment tips1Fragment = new Tips1Fragment();
-                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                FragmentTransaction fragmentTransaction = getParentFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.container, tips1Fragment);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
