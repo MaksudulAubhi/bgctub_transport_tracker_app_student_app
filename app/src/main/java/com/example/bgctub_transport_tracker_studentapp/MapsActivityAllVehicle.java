@@ -189,7 +189,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         //userId is key
 
         //icon for buses**
-        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.ic_action_bus);
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.bus_map);
 
         //for vehicle information**
         //if status true: active then others information will get and fetch data
@@ -264,7 +264,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Vehicle Information");
         builder.setMessage(information);
-        builder.setIcon(R.drawable.ic_action_bus_map);
+        builder.setIcon(R.drawable.bus_map);
         builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

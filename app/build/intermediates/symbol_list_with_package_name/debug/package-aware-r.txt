@@ -1626,6 +1626,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bus_list
+drawable bus_map
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1658,7 +1659,6 @@ drawable home
 drawable ic_action_about
 drawable ic_action_back_button
 drawable ic_action_bus
-drawable ic_action_bus_map
 drawable ic_action_departure_board
 drawable ic_action_directions_bus
 drawable ic_action_edit

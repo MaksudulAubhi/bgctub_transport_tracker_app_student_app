@@ -202,7 +202,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String key = userId;
 
         //icon for buses**
-        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.ic_action_bus);
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.bus_map);
 
         //for vehicle information**
 
@@ -270,7 +270,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Vehicle Information");
         builder.setMessage(information);
-        builder.setIcon(R.drawable.ic_action_bus_map);
+        builder.setIcon(R.drawable.bus_map);
         builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
