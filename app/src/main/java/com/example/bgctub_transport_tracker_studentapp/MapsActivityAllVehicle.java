@@ -238,7 +238,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         for (Marker marker : mMarkers.values()) {
             builder.include(marker.getPosition());
         }
-        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(builder.build(), 300));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(builder.build(), 100));
 
 
     }

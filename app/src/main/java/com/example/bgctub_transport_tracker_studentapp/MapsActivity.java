@@ -244,7 +244,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         for (Marker marker : mMarkers.values()) {
             builder.include(marker.getPosition());
         }
-        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(builder.build(), 300));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(builder.build(), 100));
 
 
     }
