@@ -22,6 +22,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.bgctub_transport_tracker_studentapp.services.BuildNotificationService;
+import com.example.bgctub_transport_tracker_studentapp.services.MyFirebaseMessageService;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
@@ -111,6 +112,7 @@ public class AppMainActivity extends AppCompatActivity {
                 recreate();
                 return true;
             case R.id.action_logout:
+                stopService(new Intent(this, MyFirebaseMessageService.class));
                 mAuth.signOut();
                 startActivity(new Intent(AppMainActivity.this, SigninActivity.class));
                 finish();
@@ -122,6 +124,7 @@ public class AppMainActivity extends AppCompatActivity {
             case R.id.action_exit:
                 //if exit notification service will stopped: for unfortunate problem
                 stopService(new Intent(this, BuildNotificationService.class));
+                stopService(new Intent(this, MyFirebaseMessageService.class));
                 System.exit(0);
                 finish();
                 return true;

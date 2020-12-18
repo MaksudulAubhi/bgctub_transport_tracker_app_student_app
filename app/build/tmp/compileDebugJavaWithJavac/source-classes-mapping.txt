@@ -39,19 +39,17 @@ com/example/bgctub_transport_tracker_studentapp/ForgetPasswordActivity.java
  com.example.bgctub_transport_tracker_studentapp.ForgetPasswordActivity
  com.example.bgctub_transport_tracker_studentapp.ForgetPasswordActivity$1
  com.example.bgctub_transport_tracker_studentapp.ForgetPasswordActivity$2
-com/example/bgctub_transport_tracker_studentapp/TipsActivity.java
- com.example.bgctub_transport_tracker_studentapp.TipsActivity
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$1
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$2
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$3
+com/example/bgctub_transport_tracker_studentapp/MapsActivityAllVehicle.java
+ com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle
+ com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$1
+ com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$2
+ com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$3
 com/example/bgctub_transport_tracker_studentapp/ProfileUpdateActivity.java
  com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity
  com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity$1
-com/example/bgctub_transport_tracker_studentapp/SignupActivity.java
- com.example.bgctub_transport_tracker_studentapp.SignupActivity
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$1
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$1$1
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$2
+com/example/bgctub_transport_tracker_studentapp/ui/home/HomeFragment.java
+ com.example.bgctub_transport_tracker_studentapp.ui.home.HomeFragment
+ com.example.bgctub_transport_tracker_studentapp.ui.home.HomeFragment$1
 com/example/bgctub_transport_tracker_studentapp/BuildConfig.java
  com.example.bgctub_transport_tracker_studentapp.BuildConfig
 com/example/bgctub_transport_tracker_studentapp/ui/profile/ProfileFragment.java
@@ -81,6 +79,8 @@ com/example/bgctub_transport_tracker_studentapp/ui/tipsActivity/tips0/Tips0Fragm
  com.example.bgctub_transport_tracker_studentapp.ui.tipsActivity.tips0.Tips0Fragment
 com/example/bgctub_transport_tracker_studentapp/ui/tipsActivity/tips0/Tips0ViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.tipsActivity.tips0.Tips0ViewModel
+com/example/bgctub_transport_tracker_studentapp/services/MyFirebaseMessageService.java
+ com.example.bgctub_transport_tracker_studentapp.services.MyFirebaseMessageService
 com/example/bgctub_transport_tracker_studentapp/ui/tipsActivity/tips2/Tips2Fragment.java
  com.example.bgctub_transport_tracker_studentapp.ui.tipsActivity.tips2.Tips2Fragment
 com/example/bgctub_transport_tracker_studentapp/HelpActivity.java
@@ -106,11 +106,13 @@ com/example/bgctub_transport_tracker_studentapp/ui/help/HelpViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.help.HelpViewModel
 com/example/bgctub_transport_tracker_studentapp/ui/report/ReportViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.report.ReportViewModel
-com/example/bgctub_transport_tracker_studentapp/MapsActivityAllVehicle.java
- com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle
- com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$1
- com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$2
- com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$3
-com/example/bgctub_transport_tracker_studentapp/ui/home/HomeFragment.java
- com.example.bgctub_transport_tracker_studentapp.ui.home.HomeFragment
- com.example.bgctub_transport_tracker_studentapp.ui.home.HomeFragment$1
+com/example/bgctub_transport_tracker_studentapp/SignupActivity.java
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$1
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$1$1
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$2
+com/example/bgctub_transport_tracker_studentapp/TipsActivity.java
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$1
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$2
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$3
