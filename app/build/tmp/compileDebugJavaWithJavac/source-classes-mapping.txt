@@ -31,8 +31,11 @@ com/example/bgctub_transport_tracker_studentapp/DeleteAccountActivity.java
  com.example.bgctub_transport_tracker_studentapp.DeleteAccountActivity$3
 com/example/bgctub_transport_tracker_studentapp/model/ReportFeedback.java
  com.example.bgctub_transport_tracker_studentapp.model.ReportFeedback
-com/example/bgctub_transport_tracker_studentapp/SettingsActivity.java
- com.example.bgctub_transport_tracker_studentapp.SettingsActivity
+com/example/bgctub_transport_tracker_studentapp/SignupActivity.java
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$1
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$1$1
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$2
 com/example/bgctub_transport_tracker_studentapp/ui/profile/ProfileViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.profile.ProfileViewModel
 com/example/bgctub_transport_tracker_studentapp/ForgetPasswordActivity.java
@@ -87,10 +90,11 @@ com/example/bgctub_transport_tracker_studentapp/HelpActivity.java
  com.example.bgctub_transport_tracker_studentapp.HelpActivity
 com/example/bgctub_transport_tracker_studentapp/services/BuildNotificationService.java
  com.example.bgctub_transport_tracker_studentapp.services.BuildNotificationService
-com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.java
- com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity
- com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity$1
- com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity$2
+com/example/bgctub_transport_tracker_studentapp/TipsActivity.java
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$1
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$2
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$3
 com/example/bgctub_transport_tracker_studentapp/ui/tipsActivity/tips1/Tips1ViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.tipsActivity.tips1.Tips1ViewModel
 com/example/bgctub_transport_tracker_studentapp/ui/about/AboutViewModel.java
@@ -106,13 +110,9 @@ com/example/bgctub_transport_tracker_studentapp/ui/help/HelpViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.help.HelpViewModel
 com/example/bgctub_transport_tracker_studentapp/ui/report/ReportViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.report.ReportViewModel
-com/example/bgctub_transport_tracker_studentapp/SignupActivity.java
- com.example.bgctub_transport_tracker_studentapp.SignupActivity
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$1
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$1$1
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$2
-com/example/bgctub_transport_tracker_studentapp/TipsActivity.java
- com.example.bgctub_transport_tracker_studentapp.TipsActivity
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$1
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$2
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$3
+com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.java
+ com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity
+ com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity$1
+ com.example.bgctub_transport_tracker_studentapp.ChangePasswordActivity$2
+com/example/bgctub_transport_tracker_studentapp/SettingsActivity.java
+ com.example.bgctub_transport_tracker_studentapp.SettingsActivity

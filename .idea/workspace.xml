@@ -43,16 +43,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1266c222-e658-4fbf-92d3-2992c9dfa4c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ChangePasswordActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/FirebasePerformancePlugin/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/FirebasePerformancePlugin/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DU2XRJ159W088441]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -294,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608269689370</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update_20.12.20">
+      <created>1608446825994</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608446825994</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -332,9 +352,14 @@
     <MESSAGE value="update9" />
     <MESSAGE value="update10" />
     <MESSAGE value="update_18.12.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="update_18.12.20" />
+    <MESSAGE value="update_20.12.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="update_20.12.20" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="568" y="226" key="#Notifications" timestamp="1608446848902">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1608446848902" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1606020497979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -367,10 +392,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="739" y="101" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1606152603400" />
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1608269549117">
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1608446787623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608269549117" />
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608446787623" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608269172641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
