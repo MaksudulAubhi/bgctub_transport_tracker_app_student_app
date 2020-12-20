@@ -78,7 +78,7 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
         String email=mUser.getEmail().toString().trim();
         String currentPassword=currentPasswordEditText.getText().toString().trim();
         String newPassword=newPasswordEditText.getText().toString().trim();
-        String confirmNewPassword=newConfirmPasswordEditText.toString().trim();
+        String confirmNewPassword=newConfirmPasswordEditText.getText().toString().trim();
 
         //input validation**
         if(TextUtils.isEmpty(currentPassword)){
@@ -97,11 +97,16 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
             newPasswordEditText.setError("please enter a 6 characters password.");
             return;
         }
+        if(newPassword.equals(currentPassword)){
+            newPasswordEditText.setError("current password and the new password are same");
+            return;
+        }
+
         if(TextUtils.isEmpty(confirmNewPassword)){
             newConfirmPasswordEditText.setError("please enter confirm password.");
             return;
         }
-        if(confirmNewPassword.length()<6 || newPassword.equals(confirmNewPassword)){
+        if(confirmNewPassword.length()<6 || !confirmNewPassword.equals(newPassword)){
             newConfirmPasswordEditText.setError("confirm password not matched.");
             return;
         }
