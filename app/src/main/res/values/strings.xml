@@ -21,14 +21,14 @@
     <string name="help_activity_title">Help</string>
 
 
-    <string name="snackbar_message">Please turn on your phone\'s location.</string>
-    <string name="off_location_snackbar_message">Please turn on your phone\'s location.</string>
-    <string name="off_location_internet_snackbar_message">Please turn on your phone\'s internet connection and location.</string>
-    <string name="off_internet_message">Please turn on your phone\'s internet connection.</string>
-    <string name="notification_text">Keep on your phone\'s internet connection and GPS. Click here for vehicle information.</string>
+    <string name="snackbar_message">Please, turn on your phone\'s location.</string>
+    <string name="off_location_snackbar_message">Please, turn on your phone\'s location.</string>
+    <string name="off_location_internet_snackbar_message">Please, turn on your phone\'s internet connection and location.</string>
+    <string name="off_internet_message">Please, turn on your phone\'s internet connection.</string>
+    <string name="notification_text">Please, keep on your phone\'s internet connection and GPS. Click here for vehicle information.</string>
     <string name="title_activity_app_main">AppMainActivity</string>
-    <string name="forgetPassInfoMsg">Please check your email. We sent an email with password recovery link. </string>
-    <string name="verify_account_info_msg">Registration successful. Please check your email to verify your account and sign in. We sent an email with verification link.</string>
+    <string name="forgetPassInfoMsg">Please, check your email. We sent an email with password recovery link. </string>
+    <string name="verify_account_info_msg">Registration successful. Please, check your email to verify your account and sign in. We sent an email with verification link.</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
