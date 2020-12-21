@@ -140,6 +140,7 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
         int genderID = genderRadioGroup.getCheckedRadioButtonId();
         if (genderID == -1) {
             genderErrorTextView.setVisibility(View.VISIBLE);
+            return;
         } else {
             genderRadioButton = (RadioButton) findViewById(genderID);
             gender = genderRadioButton.getText().toString().trim();
