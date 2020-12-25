@@ -8,16 +8,16 @@
         android:id="@+id/adapterImageView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_margin="8dp"
-        android:padding="5dp"
+        android:layout_margin="4dp"
+        android:padding="2dp"
         app:srcCompat="@drawable/ic_action_directions_bus" />
 
     <TextView
         android:id="@+id/adapterTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:padding="5dp"
+        android:layout_margin="4dp"
+        android:padding="2dp"
         android:text="list"
         android:textColor="@color/black"
         android:textSize="16sp"

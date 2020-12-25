@@ -49,6 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/linearLayout1"
                 android:gravity="center"
+                android:paddingBottom="10dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -56,7 +57,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginHorizontal="45dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
                     android:text="Cancel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
@@ -67,7 +69,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginHorizontal="45dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:text="Next"
                     android:textColor="@color/white"
                     android:textSize="14sp"

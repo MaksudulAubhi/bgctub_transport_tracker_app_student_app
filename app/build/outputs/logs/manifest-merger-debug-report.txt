@@ -7,9 +7,9 @@ INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transpo
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\ec250155e0cc9801203558f97e3604a4\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fad1bb01be8820ea90ab785c00500042\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9c3590bbe0308d4863a0a7f87e36970c\material-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a0cf35a67d55f4d2f8b05a98222d5389\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:3:1-30:12
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:3:1-30:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a6fb3c5281457ba0a72058ad0d71cce8\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\51d039225d62049c536af45318a31858\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:17:1-91:12
@@ -45,11 +45,11 @@ MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\M
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e3f8efa301ad9189248ac08968b4a8e8\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b053716d0a763d101ce8c32d011e2730\jetified-play-services-measurement-sdk-18.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\899ed8d9a9af4b2efee8c2b8c91c99c9\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2a161bf20b6f99d547ea2f5989270579\jetified-firebase-installations-interop-16.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\aa79043e8c7ae68467d1950995ec78e4\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:2:1-13:12
@@ -80,9 +80,9 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1c5f40d22f15c813e582c7b1292d7cd9\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\61e03a668fd36e38b0fdc7d1abd22592\jetified-transport-runtime-2.2.5\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9add6dd2be2fd8b5910b61e6cd20c107\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\74ba27e96b0c29a0711971fd0b49d3c8\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\85e5d4eaa8843c9e7fa8cca258fd894f\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42fea604a891bc40375aa52f018f0cd0\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\74ba27e96b0c29a0711971fd0b49d3c8\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\720aba03dbd9dbf2f30c7b2f97707cd1\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7871e8729da9fbdb452d3316d1380b5\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc1937947a5aff47e82f915f3e3aaedd\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
@@ -97,7 +97,7 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\c
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1a46f87fda8ba3a6368f134b88976526\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1f19ef72a0b4cf817c94905c4fa4ce46\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\55ca590ecd86fec73094a4945923d1d1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\60eb4d7caac1ddefc2526b8735e1d582\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4160758a97e00f2745fdab8bcd552a68\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\50fe3ca937112d4e251990c6651c65c4\jetified-rxandroid-2.0.2\AndroidManifest.xml:15:1-21:12
 INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-123:12
 INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:2:1-123:12
@@ -120,12 +120,12 @@ application
 ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:5:5-117:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9c3590bbe0308d4863a0a7f87e36970c\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9c3590bbe0308d4863a0a7f87e36970c\material-1.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:14:5-22:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a0cf35a67d55f4d2f8b05a98222d5389\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a0cf35a67d55f4d2f8b05a98222d5389\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:14:5-28:19
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:14:5-28:19
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:14:5-28:19
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:14:5-28:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\51d039225d62049c536af45318a31858\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\51d039225d62049c536af45318a31858\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:26:5-89:19
@@ -162,16 +162,16 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b053716d0a763d101ce8c32d011e2730\jetified-play-services-measurement-sdk-18.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:13:5-21:19
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\899ed8d9a9af4b2efee8c2b8c91c99c9\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\899ed8d9a9af4b2efee8c2b8c91c99c9\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
 MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1999eedc8c44207162158ccac49a1bd5\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:7:5-20
@@ -378,8 +378,8 @@ ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_
 		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:114:25-75
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:118:5-79
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:11:5-79
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a70a1aa515e77785c77c0ba9efae21e5\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
@@ -394,8 +394,8 @@ MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e3f8efa301ad9189248ac08968b4a8e8\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\aa79043e8c7ae68467d1950995ec78e4\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:7:5-79
@@ -416,10 +416,10 @@ ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_
 		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:119:22-76
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:121:5-67
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:12:5-67
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:12:5-67
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a70a1aa515e77785c77c0ba9efae21e5\jetified-firebase-database-19.5.1\AndroidManifest.xml:26:5-67
@@ -436,8 +436,8 @@ MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e3f8efa301ad9189248ac08968b4a8e8\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\aa79043e8c7ae68467d1950995ec78e4\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
@@ -460,12 +460,12 @@ MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\Maksudul Hoque Au
 MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fad1bb01be8820ea90ab785c00500042\navigation-ui-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9c3590bbe0308d4863a0a7f87e36970c\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9c3590bbe0308d4863a0a7f87e36970c\material-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a0cf35a67d55f4d2f8b05a98222d5389\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a0cf35a67d55f4d2f8b05a98222d5389\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a6fb3c5281457ba0a72058ad0d71cce8\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a6fb3c5281457ba0a72058ad0d71cce8\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\51d039225d62049c536af45318a31858\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:5:5-44
@@ -536,16 +536,16 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b053716d0a763d101ce8c32d011e2730\jetified-play-services-measurement-sdk-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:21:5-23:41
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\899ed8d9a9af4b2efee8c2b8c91c99c9\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\899ed8d9a9af4b2efee8c2b8c91c99c9\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\2a161bf20b6f99d547ea2f5989270579\jetified-firebase-installations-interop-16.0.1\AndroidManifest.xml:19:5-21:41
@@ -606,12 +606,12 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\61e03a668fd36e38b0fdc7d1abd22592\jetified-transport-runtime-2.2.5\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9add6dd2be2fd8b5910b61e6cd20c107\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9add6dd2be2fd8b5910b61e6cd20c107\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\74ba27e96b0c29a0711971fd0b49d3c8\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\74ba27e96b0c29a0711971fd0b49d3c8\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\85e5d4eaa8843c9e7fa8cca258fd894f\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\85e5d4eaa8843c9e7fa8cca258fd894f\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42fea604a891bc40375aa52f018f0cd0\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\42fea604a891bc40375aa52f018f0cd0\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\74ba27e96b0c29a0711971fd0b49d3c8\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\74ba27e96b0c29a0711971fd0b49d3c8\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\720aba03dbd9dbf2f30c7b2f97707cd1\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\720aba03dbd9dbf2f30c7b2f97707cd1\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a7871e8729da9fbdb452d3316d1380b5\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
@@ -640,8 +640,8 @@ MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Maksudul Hoque
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1f19ef72a0b4cf817c94905c4fa4ce46\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\55ca590ecd86fec73094a4945923d1d1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\55ca590ecd86fec73094a4945923d1d1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\60eb4d7caac1ddefc2526b8735e1d582\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\60eb4d7caac1ddefc2526b8735e1d582\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4160758a97e00f2745fdab8bcd552a68\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\4160758a97e00f2745fdab8bcd552a68\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\50fe3ca937112d4e251990c6651c65c4\jetified-rxandroid-2.0.2\AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\50fe3ca937112d4e251990c6651c65c4\jetified-rxandroid-2.0.2\AndroidManifest.xml:19:5-43
 INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
@@ -655,9 +655,9 @@ INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transpo
 		ADDED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:15:9-21:19
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:21:9-27:19
-MERGED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:21:9-27:19
+ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:21:9-27:19
+MERGED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:21:9-27:19
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
 MERGED from [com.google.firebase:firebase-database:19.5.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\a70a1aa515e77785c77c0ba9efae21e5\jetified-firebase-database-19.5.1\AndroidManifest.xml:29:9-35:19
@@ -672,50 +672,50 @@ MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e3f8efa301ad9189248ac08968b4a8e8\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:14:9-20:19
-MERGED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:14:9-20:19
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:12:9-16:19
 MERGED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:12:9-16:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:17:13-37
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:17:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:37:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:16:13-84
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:16:13-84
 meta-data#com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar
-ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:18:13-20:85
+ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:18:13-20:85
 	android:value
-		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:20:17-82
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:20:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:19:17-144
+		ADDED from [com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:19:17-144
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:12:5-98
+ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:12:5-98
 	android:name
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:12:22-95
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:12:22-95
 provider#com.google.firebase.perf.provider.FirebasePerfProvider
-ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:15:9-19:39
+ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:15:9-19:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:17:13-72
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:17:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:18:13-37
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:18:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:19:13-36
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:16:13-82
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:16:13-82
 meta-data#com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar
-ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:24:13-26:85
+ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:24:13-26:85
 	android:value
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:26:17-82
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:26:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:25:17-109
+		ADDED from [com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:25:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:27:9-34:50
 	android:excludeFromRecents
@@ -931,29 +931,29 @@ ADDED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque 
 	android:name
 		ADDED from [com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:33:17-117
 meta-data#com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar
-ADDED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:17:13-19:85
+ADDED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:17:13-19:85
 	android:value
-		ADDED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:19:17-82
+		ADDED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:19:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:18:17-129
+		ADDED from [com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:18:17-129
 meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
 ADDED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
 	android:value
 		ADDED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
-meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
-ADDED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
 ADDED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
 	android:value
 		ADDED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 	android:authorities

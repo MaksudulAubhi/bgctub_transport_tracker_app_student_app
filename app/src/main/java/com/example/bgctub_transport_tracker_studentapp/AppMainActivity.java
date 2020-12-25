@@ -112,7 +112,6 @@ public class AppMainActivity extends AppCompatActivity {
                 recreate();
                 return true;
             case R.id.action_logout:
-                stopService(new Intent(this, MyFirebaseMessageService.class));
                 mAuth.signOut();
                 startActivity(new Intent(AppMainActivity.this, SigninActivity.class));
                 finish();
@@ -124,7 +123,6 @@ public class AppMainActivity extends AppCompatActivity {
             case R.id.action_exit:
                 //if exit notification service will stopped: for unfortunate problem
                 stopService(new Intent(this, BuildNotificationService.class));
-                stopService(new Intent(this, MyFirebaseMessageService.class));
                 System.exit(0);
                 finish();
                 return true;

@@ -4,7 +4,7 @@
     <string name="app_main_name">BGCTUB Transport Tracking App</string>
 
     <!--Tips Text -->
-    <string name="tip0_text">Please, keep on your phone\'s internet connection and GPS.</string>
+    <string name="tip0_text">Please, keep on your phone\'s internet connection and location.</string>
     <string name="tip2text">Please, refrain from using mobile phones while crossing the road and while walking. </string>
     <string name="tip1text">Please, look both ways before cross the road. </string>
     <string name="tip3text">Please, try to walk on the right-hand side of the road.  </string>
@@ -25,7 +25,7 @@
     <string name="off_location_snackbar_message">Please, turn on your phone\'s location.</string>
     <string name="off_location_internet_snackbar_message">Please, turn on your phone\'s internet connection and location.</string>
     <string name="off_internet_message">Please, turn on your phone\'s internet connection.</string>
-    <string name="notification_text">Please, keep on your phone\'s internet connection and GPS. Click here for vehicle information.</string>
+    <string name="notification_text">Please, keep on your phone\'s internet connection and location. Click here for vehicle information.</string>
     <string name="title_activity_app_main">AppMainActivity</string>
     <string name="forgetPassInfoMsg">Please, check your email. We sent an email with password recovery link. </string>
     <string name="verify_account_info_msg">Registration successful. Please, check your email to verify your account and sign in. We sent an email with verification link.</string>
@@ -60,11 +60,11 @@
     <string name="sign_in_help_text">Enter your account email and password to sign in. If you forget the password, click on the "forgot password?" option.</string>
     <string name="help_text_signup">Enter a valid email and at least 6 character password to sign up. You will receive an email with an email verification link as soon as the sign up is complete.</string>
     <string name="forgot_pass_help">Enter your account email to reset password. We will send an email with password reset link.</string>
-    <string name="homeHelptext1">How many buses are active now you can see from here. To see the real time locations of active buses click the location button.</string>
+    <string name="homeHelptext1">How many buses are active now, you can see from here. To see the real time locations of active buses click the location button.</string>
     <string name="HomeHelpText2">University buses marker is green bus icon. Red marker icon is your current location. Click the marker to open information window. For more information click the information window.</string>
     <string name="transport_info_help_text">To see bus list click \'Transport Information\' option from navigation bar. Click on bus information summary to see details information of specific bus. You can see also current location of specific bus from here.</string>
     <string name="report_feedback_helptext">To give feedback or report choose \'Report and Feedback\' option from navigation bar. Give a title of your report or feedback and enter details information about your report or feedback.</string>
-
+    <string name="blog_link">https://bgctubtransporttrackingapp.blogspot.com</string>
 
 
 </resources>

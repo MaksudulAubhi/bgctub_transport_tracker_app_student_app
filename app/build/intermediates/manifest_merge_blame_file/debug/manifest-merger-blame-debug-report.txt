@@ -20,8 +20,8 @@
 13-->C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:121:5-67
 13-->C:\Users\Maksudul Hoque Aubhi\AndroidStudioProjects\BGCTUB_Transport_Tracker_StudentApp\app\src\main\AndroidManifest.xml:121:22-64
 14    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-14-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:12:5-98
-14-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:12:22-95
+14-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:12:5-98
+14-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:12:22-95
 15
 16    <uses-feature
 16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\dbd33ae524dc1715199bf127419d79f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
@@ -245,25 +245,25 @@
 136            </intent-filter>
 137        </service>
 138        <service
-138-->[com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:15:9-21:19
+138-->[com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:15:9-21:19
 139            android:name="com.google.firebase.components.ComponentDiscoveryService"
-139-->[com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:16:13-84
+139-->[com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:16:13-84
 140            android:directBootAware="true"
 140-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\459226a3910041401587bebcfb583591\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 141            android:exported="false" >
-141-->[com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:17:13-37
+141-->[com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:17:13-37
 142            <meta-data
-142-->[com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:18:13-20:85
+142-->[com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:18:13-20:85
 143                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
-143-->[com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:19:17-144
+143-->[com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:19:17-144
 144                android:value="com.google.firebase.components.ComponentRegistrar" />
-144-->[com.google.firebase:firebase-inappmessaging-display:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\bede0c5c94144dd55a1a5c1c5a5a7f91\jetified-firebase-inappmessaging-display-19.1.2\AndroidManifest.xml:20:17-82
+144-->[com.google.firebase:firebase-inappmessaging-display:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\1642f6426e66576863edf2dd03881637\jetified-firebase-inappmessaging-display-19.1.3\AndroidManifest.xml:20:17-82
 145            <meta-data
-145-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:24:13-26:85
+145-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:24:13-26:85
 146                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
-146-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:25:17-109
+146-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:25:17-109
 147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:26:17-82
+147-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:26:17-82
 148            <meta-data
 148-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:85:13-87:85
 149                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -307,11 +307,11 @@
 168                android:value="com.google.firebase.components.ComponentRegistrar" />
 168-->[com.google.firebase:firebase-config:20.0.1] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\3c1b57382d9714560a5f43edcf3496d5\jetified-firebase-config-20.0.1\AndroidManifest.xml:34:17-82
 169            <meta-data
-169-->[com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:17:13-19:85
+169-->[com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:17:13-19:85
 170                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
-170-->[com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:18:17-129
+170-->[com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:18:17-129
 171                android:value="com.google.firebase.components.ComponentRegistrar" />
-171-->[com.google.firebase:firebase-inappmessaging:19.1.2] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\5e4e4d0405d99b62c0ef91b645141b69\jetified-firebase-inappmessaging-19.1.2\AndroidManifest.xml:19:17-82
+171-->[com.google.firebase:firebase-inappmessaging:19.1.3] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\fff9c89108af6422e5390b3652b4b1cd\jetified-firebase-inappmessaging-19.1.3\AndroidManifest.xml:19:17-82
 172            <meta-data
 172-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
 173                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
@@ -319,17 +319,17 @@
 174                android:value="com.google.firebase.components.ComponentRegistrar" />
 174-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\90a9b0a738b25b6869a5cd86f2e5d3fe\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
 175            <meta-data
-175-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
-176                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-176-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+175-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+176-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
 177                android:value="com.google.firebase.components.ComponentRegistrar" />
-177-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+177-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
 178            <meta-data
-178-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
-179                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-179-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+178-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+179                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+179-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
 180                android:value="com.google.firebase.components.ComponentRegistrar" />
-180-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\e896cd356e5071d059c36243d13964cc\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+180-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\cc328ef0d94942e909c9aa361bbb50de\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
 181            <!--
 182                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
 183                clients to use it as well, by defining this registrar in their own core/common library.
@@ -343,15 +343,15 @@
 188        </service>
 189
 190        <provider
-190-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:15:9-19:39
+190-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:15:9-19:39
 191            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
-191-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:16:13-82
+191-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:16:13-82
 192            android:authorities="com.example.bgctub_transport_tracker_studentapp.firebaseperfprovider"
-192-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:17:13-72
+192-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:17:13-72
 193            android:exported="false"
-193-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:18:13-37
+193-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:18:13-37
 194            android:initOrder="101" />
-194-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\d24428450a2dc909df75ad2ecbf2a6d1\jetified-firebase-perf-19.0.10\AndroidManifest.xml:19:13-36
+194-->[com.google.firebase:firebase-perf:19.0.11] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\b9ae53d810e85326f1a89d9d15bccb92\jetified-firebase-perf-19.0.11\AndroidManifest.xml:19:13-36
 195
 196        <activity
 196-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Maksudul Hoque Aubhi\.gradle\caches\transforms-2\files-2.1\9b5274a51edf9c9f2a4638d157d45765\jetified-firebase-auth-20.0.0\AndroidManifest.xml:27:9-34:50
