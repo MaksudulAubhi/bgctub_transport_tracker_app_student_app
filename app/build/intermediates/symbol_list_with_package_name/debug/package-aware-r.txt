@@ -2494,6 +2494,7 @@ string activity_settings_title
 string app_main_name
 string app_name
 string appbar_scrolling_view_behavior
+string blog_link
 string bottom_sheet_behavior
 string card_content_descriptor
 string changePassActivityTitle

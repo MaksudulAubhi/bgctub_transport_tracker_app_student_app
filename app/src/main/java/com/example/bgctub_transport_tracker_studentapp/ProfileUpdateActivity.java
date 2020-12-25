@@ -136,19 +136,10 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
         String program = programEditText.getText().toString().trim();
         String semester = semesterEdiText.getText().toString().trim();
 
-        //For gender radio button
-        int genderID = genderRadioGroup.getCheckedRadioButtonId();
-        if (genderID == -1) {
-            genderErrorTextView.setVisibility(View.VISIBLE);
-            return;
-        } else {
-            genderRadioButton = (RadioButton) findViewById(genderID);
-            gender = genderRadioButton.getText().toString().trim();
-        }
 
         //input validation**
         if (TextUtils.isEmpty(name)) {
-            nameEdiText.setError("Please enter your name");
+            nameEdiText.setError("Please enter your full name");
             return;
         }
         if (TextUtils.isEmpty(id)) {
@@ -159,18 +150,32 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
             departmentEditText.setError("Please enter department name");
             return;
         }
+        if (TextUtils.isEmpty(program)) {
+            programEditText.setError("Please enter your program");
+            return;
+        }
+        if (TextUtils.isEmpty(semester)) {
+            semesterEdiText.setError("Please enter your semester");
+            return;
+        }
+        //For gender radio button input validation and get text
+        int genderID = genderRadioGroup.getCheckedRadioButtonId();
+        if (genderID == -1) {
+            genderErrorTextView.setVisibility(View.VISIBLE);
+            return;
+        } else {
+            genderRadioButton = (RadioButton) findViewById(genderID);
+            gender = genderRadioButton.getText().toString().trim();
+        }
+
         if (TextUtils.isEmpty(busStoppage)) {
             busStoppageEditText.setError("Please enter your bus stoppage name");
             return;
         }
-        if (TextUtils.isEmpty(program)) {
-            nameEdiText.setError("Please enter your program");
-            return;
-        }
-        if (TextUtils.isEmpty(semester)) {
-            semesterEdiText.setError("Please enter your semester name");
-            return;
-        }
+
+
+
+
 
         progressDialog.setMessage("Please wait...");
         progressDialog.show();
