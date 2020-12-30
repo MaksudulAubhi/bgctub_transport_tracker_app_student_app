@@ -1684,6 +1684,7 @@ drawable ic_action_help
 drawable ic_action_home
 drawable ic_action_info
 drawable ic_action_location
+drawable ic_action_location_marker
 drawable ic_action_location_white
 drawable ic_action_profile
 drawable ic_action_register

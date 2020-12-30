@@ -2,11 +2,11 @@ com/example/bgctub_transport_tracker_studentapp/ui/tipsActivity/tips2/Tips2ViewM
  com.example.bgctub_transport_tracker_studentapp.ui.tipsActivity.tips2.Tips2ViewModel
 com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.java
  com.example.bgctub_transport_tracker_studentapp.ui.report.ReportFragment
-com/example/bgctub_transport_tracker_studentapp/MapsActivity.java
- com.example.bgctub_transport_tracker_studentapp.MapsActivity
- com.example.bgctub_transport_tracker_studentapp.MapsActivity$1
- com.example.bgctub_transport_tracker_studentapp.MapsActivity$2
- com.example.bgctub_transport_tracker_studentapp.MapsActivity$3
+com/example/bgctub_transport_tracker_studentapp/TipsActivity.java
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$1
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$2
+ com.example.bgctub_transport_tracker_studentapp.TipsActivity$3
 com/example/bgctub_transport_tracker_studentapp/ui/help/HelpFragment.java
  com.example.bgctub_transport_tracker_studentapp.ui.help.HelpFragment
 com/example/bgctub_transport_tracker_studentapp/MainActivity.java
@@ -44,6 +44,7 @@ com/example/bgctub_transport_tracker_studentapp/MapsActivityAllVehicle.java
  com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$1
  com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$2
  com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$3
+ com.example.bgctub_transport_tracker_studentapp.MapsActivityAllVehicle$4
 com/example/bgctub_transport_tracker_studentapp/ProfileUpdateActivity.java
  com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity
  com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity$1
@@ -64,9 +65,11 @@ com/example/bgctub_transport_tracker_studentapp/ui/home/HomeViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.home.HomeViewModel
 com/example/bgctub_transport_tracker_studentapp/adapter/Holder.java
  com.example.bgctub_transport_tracker_studentapp.adapter.Holder
-com/example/bgctub_transport_tracker_studentapp/TransportInfoDetailsActivity.java
- com.example.bgctub_transport_tracker_studentapp.TransportInfoDetailsActivity
- com.example.bgctub_transport_tracker_studentapp.TransportInfoDetailsActivity$1
+com/example/bgctub_transport_tracker_studentapp/SignupActivity.java
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$1
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$1$1
+ com.example.bgctub_transport_tracker_studentapp.SignupActivity$2
 com/example/bgctub_transport_tracker_studentapp/adapter/CustomList.java
  com.example.bgctub_transport_tracker_studentapp.adapter.CustomList
 com/example/bgctub_transport_tracker_studentapp/ui/tipsActivity/tips1/Tips1Fragment.java
@@ -106,13 +109,12 @@ com/example/bgctub_transport_tracker_studentapp/ui/help/HelpViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.help.HelpViewModel
 com/example/bgctub_transport_tracker_studentapp/ui/report/ReportViewModel.java
  com.example.bgctub_transport_tracker_studentapp.ui.report.ReportViewModel
-com/example/bgctub_transport_tracker_studentapp/SignupActivity.java
- com.example.bgctub_transport_tracker_studentapp.SignupActivity
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$1
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$1$1
- com.example.bgctub_transport_tracker_studentapp.SignupActivity$2
-com/example/bgctub_transport_tracker_studentapp/TipsActivity.java
- com.example.bgctub_transport_tracker_studentapp.TipsActivity
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$1
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$2
- com.example.bgctub_transport_tracker_studentapp.TipsActivity$3
+com/example/bgctub_transport_tracker_studentapp/MapsActivity.java
+ com.example.bgctub_transport_tracker_studentapp.MapsActivity
+ com.example.bgctub_transport_tracker_studentapp.MapsActivity$1
+ com.example.bgctub_transport_tracker_studentapp.MapsActivity$2
+ com.example.bgctub_transport_tracker_studentapp.MapsActivity$3
+ com.example.bgctub_transport_tracker_studentapp.MapsActivity$4
+com/example/bgctub_transport_tracker_studentapp/TransportInfoDetailsActivity.java
+ com.example.bgctub_transport_tracker_studentapp.TransportInfoDetailsActivity
+ com.example.bgctub_transport_tracker_studentapp.TransportInfoDetailsActivity$1

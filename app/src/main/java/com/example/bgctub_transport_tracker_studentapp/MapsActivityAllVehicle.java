@@ -10,6 +10,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Looper;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -58,6 +59,9 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps_all_vehicle);
+
+        //Using for keep screen on
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -276,12 +280,32 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         return builder;
     }
 
+    //alert dialog create with my location information after click  marker**
+    AlertDialog.Builder alertDialogBuilderMyInfo(Context context, String information) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Location Information");
+        builder.setMessage(information);
+        builder.setIcon(R.drawable.ic_action_location_marker);
+        builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+        return builder;
+    }
+
     @Override
     public void onInfoWindowClick(Marker marker) {
         //after window click open alert window**
-        String information = marker.getTitle() + "\n\n" + marker.getSnippet();
-
-        alertDialogBuilder(this, information);
-
+        String title=marker.getTitle();
+        if(title.equals("My Location")){
+            alertDialogBuilderMyInfo(this,title);
+        }else {
+            String information = marker.getTitle() + "\n\n" + marker.getSnippet();
+            alertDialogBuilder(this, information);
+        }
     }
 }
