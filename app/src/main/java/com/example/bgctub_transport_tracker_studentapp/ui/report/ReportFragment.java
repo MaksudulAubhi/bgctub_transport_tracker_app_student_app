@@ -122,13 +122,13 @@ public class ReportFragment extends Fragment implements View.OnClickListener {
                 @Override
                 public void onFailure(@NonNull Exception e) {
                     Toast.makeText(getActivity(), e.getMessage(), Toast.LENGTH_LONG).show();
-                    Toast.makeText(getActivity(), "Sorry, try again", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "Sorry, try again later", Toast.LENGTH_LONG).show();
                     progressDialog.dismiss();
                 }
             });
 
         } catch (Exception exception) {
-            Toast.makeText(getActivity(), "Sorry, try again", Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), "Sorry, try again later", Toast.LENGTH_LONG).show();
         }
     }
 
