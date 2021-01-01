@@ -16,7 +16,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.bgctub_transport_tracker_studentapp.data_secure.DataSecure;
 import com.example.bgctub_transport_tracker_studentapp.model.StudentInformation;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -36,6 +39,7 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
     private DatabaseReference studentInfoDatabaseRef;
     private ProgressDialog progressDialog;
     private String gender;
+    private DataSecure dataSecure;
 
 
     @Override
@@ -63,6 +67,10 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
         profileUpdateButton.setOnClickListener(this);
         progressDialog=new ProgressDialog(this);
 
+        //for encoding and decoding
+        dataSecure=new DataSecure();
+
+
         //firebase authentication and database reference**
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();
@@ -85,13 +93,13 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 try{
-                    String name=snapshot.child("name").getValue().toString();
-                    String id=snapshot.child("id").getValue().toString();
-                    String gender=snapshot.child("gender").getValue().toString();
-                    String department=snapshot.child("department").getValue().toString();
-                    String bus_stoppage=snapshot.child("bus_stoppage").getValue().toString();
-                    String program=snapshot.child("program").getValue().toString();
-                    String semester=snapshot.child("semester").getValue().toString();
+                    String name=dataSecure.dataDecode(snapshot.child("name").getValue().toString());
+                    String id=dataSecure.dataDecode(snapshot.child("id").getValue().toString());
+                    String gender=dataSecure.dataDecode(snapshot.child("gender").getValue().toString());
+                    String department=dataSecure.dataDecode(snapshot.child("department").getValue().toString());
+                    String bus_stoppage=dataSecure.dataDecode(snapshot.child("bus_stoppage").getValue().toString());
+                    String program=dataSecure.dataDecode(snapshot.child("program").getValue().toString());
+                    String semester=dataSecure.dataDecode(snapshot.child("semester").getValue().toString());
 
                     nameEdiText.setText(name);
                     idEdiText.setText(id);
@@ -177,20 +185,36 @@ public class ProfileUpdateActivity extends AppCompatActivity implements View.OnC
 
 
 
-        progressDialog.setMessage("Please wait...");
+        progressDialog.setMessage("Updating information");
         progressDialog.show();
 
         //data upload**
-        StudentInformation studentInformation=new StudentInformation(userId,name,id,gender,department,email,busStoppage,program,semester);
+        StudentInformation studentInformation=new StudentInformation(userId,
+                dataSecure.dataEncode(name),dataSecure.dataEncode(id),
+                dataSecure.dataEncode(gender),dataSecure.dataEncode(department),
+                dataSecure.dataEncode(email),dataSecure.dataEncode(busStoppage),
+                dataSecure.dataEncode(program),dataSecure.dataEncode(semester));
         try {
-            studentInfoDatabaseRef.setValue(studentInformation);
+            studentInfoDatabaseRef.setValue(studentInformation).addOnSuccessListener(new OnSuccessListener<Void>() {
+                @Override
+                public void onSuccess(Void aVoid) {
+                    Toast.makeText(ProfileUpdateActivity.this,"Profile Updated Successfully", Toast.LENGTH_LONG).show();
+                    progressDialog.dismiss();
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Toast.makeText(ProfileUpdateActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
+                    Toast.makeText(ProfileUpdateActivity.this,"Please try again later",Toast.LENGTH_LONG).show();
+                    progressDialog.dismiss();
+                }
+            });
 
-            Toast.makeText(this,"Profile Updated Successfully", Toast.LENGTH_LONG).show();
         }catch(Exception exception){
 
             Toast.makeText(this,"Please try again later",Toast.LENGTH_LONG).show();
         }
-        progressDialog.dismiss();
+
 
     }
 

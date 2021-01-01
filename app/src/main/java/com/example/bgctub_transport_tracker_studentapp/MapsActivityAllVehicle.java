@@ -18,6 +18,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
+import com.example.bgctub_transport_tracker_studentapp.data_secure.DataSecure;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
@@ -54,6 +55,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
     private FusedLocationProviderClient fusedLocationProviderClient;
     private FusedLocationProviderClient client;
     private LocationRequest locationRequest;
+    private DataSecure dataSecure;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +74,9 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
         //for student device location**
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
         client = LocationServices.getFusedLocationProviderClient(this);
+
+        //for encoding and decoding
+        dataSecure=new DataSecure();
 
         //user Checker**
         mAuth = FirebaseAuth.getInstance();
@@ -182,7 +187,7 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
+                Toast.makeText(MapsActivityAllVehicle.this, error.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }
@@ -204,13 +209,13 @@ public class MapsActivityAllVehicle extends FragmentActivity implements OnMapRea
 
         if (dataSnapshot.child(userId).hasChild("transport_information")) {
 
-            String vehicle_name = dataSnapshot.child(userId).child("transport_information").child("vehicle_name").getValue().toString();
-            String vehicle_number = dataSnapshot.child(userId).child("transport_information").child("vehicle_number").getValue().toString();
-            String road = dataSnapshot.child(userId).child("transport_information").child("travel_road").getValue().toString();
-            String startLoc = dataSnapshot.child(userId).child("transport_information").child("start_location").getValue().toString();
-            String destination = dataSnapshot.child(userId).child("transport_information").child("destinition").getValue().toString();
-            String time = dataSnapshot.child(userId).child("transport_information").child("start_time_schedule").getValue().toString();
-            String date = dataSnapshot.child(userId).child("transport_information").child("start_date_schedule").getValue().toString();
+            String vehicle_name = dataSecure.dataDecode(dataSnapshot.child(userId).child("transport_information").child("vehicle_name").getValue().toString());
+            String vehicle_number = dataSecure.dataDecode(dataSnapshot.child(userId).child("transport_information").child("vehicle_number").getValue().toString());
+            String road = dataSecure.dataDecode(dataSnapshot.child(userId).child("transport_information").child("travel_road").getValue().toString());
+            String startLoc = dataSecure.dataDecode(dataSnapshot.child(userId).child("transport_information").child("start_location").getValue().toString());
+            String destination =dataSecure.dataDecode( dataSnapshot.child(userId).child("transport_information").child("destinition").getValue().toString());
+            String time = dataSecure.dataDecode(dataSnapshot.child(userId).child("transport_information").child("start_time_schedule").getValue().toString());
+            String date = dataSecure.dataDecode(dataSnapshot.child(userId).child("transport_information").child("start_date_schedule").getValue().toString());
             vehicle_info1 = "Company Name: \n" + vehicle_name + "  \n\nVehicle Number: \n" + vehicle_number + "  \n\nRoad: \n" + road;
             vehicle_info2 = "Starting Place: \n" + startLoc + "  \n\nStart Time: \n" + time + "  \n\nStart Date: \n" + date + "  \n\nDestination:  \n" + destination;
 

@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.bgctub_transport_tracker_studentapp.ProfileUpdateActivity;
 import com.example.bgctub_transport_tracker_studentapp.R;
+import com.example.bgctub_transport_tracker_studentapp.data_secure.DataSecure;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -32,7 +33,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     private FirebaseAuth mAuth;
     private DatabaseReference studentInfoDatabaseRef;
     private FirebaseUser mUser;
-
+    private DataSecure dataSecure;
     public static ProfileFragment newInstance() {
         return new ProfileFragment();
     }
@@ -52,6 +53,10 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         editProfileButton = root.findViewById(R.id.profile_View_edit_imgBtn);
 
         editProfileButton.setOnClickListener(this);
+
+        //for encoding and decoding
+        dataSecure=new DataSecure();
+
 
 
         //firebase authentication and database reference**
@@ -79,14 +84,14 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 try {
-                    String name = snapshot.child("name").getValue().toString();
-                    String id = snapshot.child("id").getValue().toString();
-                    String gender = snapshot.child("gender").getValue().toString();
-                    String department = snapshot.child("department").getValue().toString();
-                    String bus_stoppage = snapshot.child("bus_stoppage").getValue().toString();
-                    String program = snapshot.child("program").getValue().toString();
-                    String semester = snapshot.child("semester").getValue().toString();
-                    String email = snapshot.child("email").getValue().toString();
+                    String name = dataSecure.dataDecode(snapshot.child("name").getValue().toString());
+                    String id = dataSecure.dataDecode(snapshot.child("id").getValue().toString());
+                    String gender = dataSecure.dataDecode(snapshot.child("gender").getValue().toString());
+                    String department = dataSecure.dataDecode(snapshot.child("department").getValue().toString());
+                    String bus_stoppage = dataSecure.dataDecode(snapshot.child("bus_stoppage").getValue().toString());
+                    String program = dataSecure.dataDecode(snapshot.child("program").getValue().toString());
+                    String semester = dataSecure.dataDecode(snapshot.child("semester").getValue().toString());
+                    String email = dataSecure.dataDecode(snapshot.child("email").getValue().toString());
 
                     nameTextView.setText(name);
                     idTextView.setText(id);
