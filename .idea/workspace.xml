@@ -43,9 +43,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1266c222-e658-4fbf-92d3-2992c9dfa4c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/data_secure/DataSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/data_secure/DataSecure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609476696155</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update_01.01.2021(1)">
+      <created>1609491540178</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609491540178</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -396,7 +414,8 @@
     <MESSAGE value="update_25.12.20(1)" />
     <MESSAGE value="update_31.12.20" />
     <MESSAGE value="update_01.01.2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="update_01.01.2021" />
+    <MESSAGE value="update_01.01.2021(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update_01.01.2021(1)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="226" key="#Notifications" timestamp="1608446848902">
@@ -435,10 +454,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="739" y="101" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1608869824924" />
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1609476638899">
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1609491519194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609476638899" />
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609491519193" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608269172641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -491,10 +510,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1605237963737" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1609476711229">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1609491565080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609476711229" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609491565080" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1604724223211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
