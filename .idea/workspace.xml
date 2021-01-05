@@ -43,20 +43,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1266c222-e658-4fbf-92d3-2992c9dfa4c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/mixed_scope_dex_archive/debug/out/com/example/bgctub_transport_tracker_studentapp/ui/report/ReportFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/services/BuildNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/services/BuildNotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/services/MyFirebaseMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgctub_transport_tracker_studentapp/services/MyFirebaseMessageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,7 @@
     <property name="android-custom-viewC:/Users/Maksudul Hoque Aubhi/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Final Project/student_app_robo_script" />
     <property name="multi-representation-previewC:/Users/Maksudul Hoque Aubhi/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="emulator" />
@@ -368,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609491540178</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update_03.01.2021">
+      <created>1609648496067</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609648496067</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -415,7 +418,8 @@
     <MESSAGE value="update_31.12.20" />
     <MESSAGE value="update_01.01.2021" />
     <MESSAGE value="update_01.01.2021(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update_01.01.2021(1)" />
+    <MESSAGE value="update_03.01.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="update_03.01.2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="226" key="#Notifications" timestamp="1608446848902">
@@ -454,10 +458,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="739" y="101" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1608869824924" />
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1609491519194">
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1609648459855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609491519193" />
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609648459855" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608269172641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -466,10 +470,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="362" y="147" key="Downloadable.Font.Dialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1604769069153" />
-    <state x="732" y="100" key="FileChooserDialogImpl" timestamp="1606316302189">
+    <state x="732" y="100" key="FileChooserDialogImpl" timestamp="1609874942489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="732" y="100" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606316302189" />
+    <state x="732" y="100" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609874942489" />
     <state x="482" y="261" key="Github.ShareDialog" timestamp="1605116769719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -478,22 +482,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="209" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605116802299" />
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1608268980901">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1609874946241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608268980901" />
-    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1608268980900">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609874946241" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1609874946241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608268980900" />
-    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1608268980899">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609874946241" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1609874946240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608268980899" />
-    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1608268980900">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609874946240" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1609874946241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608268980900" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609874946241" />
+    <state width="1323" height="178" key="GridCell.Tab.1.bottom" timestamp="1609874946243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609874946243" />
+    <state width="1323" height="178" key="GridCell.Tab.1.center" timestamp="1609874946241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609874946241" />
+    <state width="1323" height="178" key="GridCell.Tab.1.left" timestamp="1609874946241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609874946241" />
+    <state width="1323" height="178" key="GridCell.Tab.1.right" timestamp="1609874946242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609874946242" />
     <state x="263" y="106" key="IDE.errors.dialog" timestamp="1604725929370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -510,10 +530,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1605237963737" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1609491565080">
+    <state x="459" y="62" key="Vcs.Push.Dialog.v2" timestamp="1609648502746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609491565080" />
+    <state x="459" y="62" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609648502746" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1604724223211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -526,10 +546,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="301" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1605200858015" />
-    <state width="429" height="63" key="javadoc.popup.new" timestamp="1609475034742">
+    <state width="429" height="63" key="javadoc.popup.new" timestamp="1609874368069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="429" height="63" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1609475034742" />
+    <state width="429" height="63" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1609874368069" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605802529975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
